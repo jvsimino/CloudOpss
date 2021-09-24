@@ -1,0 +1,1572 @@
+Killed
+=========================================================================
+
+  JBoss Bootstrap Environment
+
+  JBOSS_HOME: /home/joaovictor/Documentos/CloudOpss/wildfly-8.2.1.Final
+
+  JAVA: java
+
+  JAVA_OPTS:  -server -XX:+UseCompressedOops  -server -XX:+UseCompressedOops -Xms64m -Xmx512m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true
+
+=========================================================================
+
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+[0m07:24:31,880 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+[0m[0m07:24:32,196 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+[0m[0m07:24:32,258 INFO  [org.jboss.as] (MSC service thread 1-7) JBAS015899: WildFly 8.2.1.Final "Tweek" starting
+[0m[0m07:24:33,565 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+[0m[0m07:24:33,594 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.3.0.Final
+[0m[0m07:24:33,609 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.3.0.Final
+[0m[0m07:24:33,682 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+[0m[0m07:24:33,687 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+[0m[0m07:24:33,705 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-6) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+[0m[0m07:24:33,733 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+[0m[0m07:24:33,746 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+[0m[0m07:24:33,754 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+[0m[0m07:24:33,764 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010417: Started Driver service with driver-name = postgresql
+[0m[0m07:24:33,804 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+[0m[0m07:24:33,806 INFO  [org.jboss.as.security] (MSC service thread 1-6) JBAS013170: Current PicketBox version=4.0.21.Final
+[0m[33m07:24:33,808 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+[0m[0m07:24:33,804 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 4.0.7.Final
+[0m[0m07:24:33,842 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+[0m[0m07:24:33,860 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017502: Undertow 1.1.8.Final starting
+[0m[0m07:24:33,870 INFO  [org.jboss.as.naming] (MSC service thread 1-2) JBAS011802: Starting Naming Service
+[0m[0m07:24:33,871 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) JBAS015400: Bound mail session [java:jboss/mail/Default]
+[0m[0m07:24:33,874 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.8.Final starting
+[0m[0m07:24:34,226 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path /home/joaovictor/Documentos/CloudOpss/wildfly-8.2.1.Final/welcome-content
+[0m[0m07:24:34,244 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017525: Started server default-server.
+[0m[0m07:24:34,252 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017531: Host default-host starting
+[0m[0m07:24:34,382 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017519: Undertow HTTP listener default listening on /0.0.0.0:8080
+[0m[0m07:24:34,521 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) JBAS015012: Started FileSystemDeploymentService for directory /home/joaovictor/Documentos/CloudOpss/wildfly-8.2.1.Final/standalone/deployments
+[0m[0m07:24:34,581 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010400: Bound data source [java:jboss/datasources/CadastrosDS]
+[0m[0m07:24:34,581 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010400: Bound data source [java:jboss/datasources/VendasDS]
+[0m[0m07:24:34,582 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:jboss/datasources/PortalDS]
+[0m[0m07:24:34,584 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) JBAS010400: Bound data source [java:jboss/datasources/RelatoriosDS]
+[0m[0m07:24:34,807 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+[0m[0m07:24:34,988 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m07:24:34,989 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+[0m[0m07:24:34,990 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.1.Final "Tweek" started in 3407ms - Started 199 of 249 services (82 services are lazy, passive or on-demand)
+[0m[0m07:25:19,591 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "portal.war" (runtime-name: "portal.war")
+[0m[0m07:25:20,981 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) JBAS011401: Read persistence.xml for PortalPU
+[0m[0m07:25:21,140 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 51) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'portal.war#PortalPU'
+[0m[0m07:25:21,153 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 51) HHH000204: Processing PersistenceUnitInfo [
+	name: PortalPU
+	...]
+[0m[0m07:25:21,240 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 51) HHH000412: Hibernate Core {4.3.7.Final}
+[0m[0m07:25:21,242 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 51) HHH000206: hibernate.properties not found
+[0m[0m07:25:21,244 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 51) HHH000021: Bytecode provider name : javassist
+[0m[0m07:25:21,474 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016002: Processing weld deployment portal.war
+[0m[0m07:25:21,548 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.1.3.Final
+[0m[0m07:25:22,029 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016005: Starting Services for CDI deployment: portal.war
+[0m[0m07:25:22,068 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 2.2.6 (Final)
+[0m[0m07:25:22,113 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016008: Starting weld service for deployment portal.war
+[0m[0m07:25:22,554 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 51) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'portal.war#PortalPU'
+[0m[0m07:25:22,652 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 51) HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+[0m[0m07:25:22,868 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 51) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+[0m[0m07:25:22,878 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 51) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[0m[0m07:25:23,029 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 51) HHH000397: Using ASTQueryTranslatorFactory
+[0m[0m07:25:23,386 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) HHH000227: Running hbm2ddl schema export
+[0m[0m07:25:23,392 INFO  [stdout] (ServerService Thread Pool -- 51) Hibernate: 
+[0m[0m07:25:23,393 INFO  [stdout] (ServerService Thread Pool -- 51)     alter table configuracao_modulo 
+[0m[0m07:25:23,393 INFO  [stdout] (ServerService Thread Pool -- 51)         drop constraint if exists FK_674d0evii3h7y5rtoam9xtfil
+[0m[31m07:25:23,395 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) HHH000389: Unsuccessful: alter table configuracao_modulo drop constraint if exists FK_674d0evii3h7y5rtoam9xtfil
+[0m[31m07:25:23,395 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) ERROR: relation "configuracao_modulo" does not exist
+[0m[0m07:25:23,396 INFO  [stdout] (ServerService Thread Pool -- 51) Hibernate: 
+[0m[0m07:25:23,396 INFO  [stdout] (ServerService Thread Pool -- 51)     alter table configuracao_modulo 
+[0m[0m07:25:23,396 INFO  [stdout] (ServerService Thread Pool -- 51)         drop constraint if exists FK_1clfi8d6u98a27587bis1du3i
+[0m[31m07:25:23,397 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) HHH000389: Unsuccessful: alter table configuracao_modulo drop constraint if exists FK_1clfi8d6u98a27587bis1du3i
+[0m[31m07:25:23,397 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) ERROR: relation "configuracao_modulo" does not exist
+[0m[0m07:25:23,397 INFO  [stdout] (ServerService Thread Pool -- 51) Hibernate: 
+[0m[0m07:25:23,398 INFO  [stdout] (ServerService Thread Pool -- 51)     alter table usuario_modulo 
+[0m[0m07:25:23,398 INFO  [stdout] (ServerService Thread Pool -- 51)         drop constraint if exists FK_s2a8pgf45lkodn7k17ay96lek
+[0m[31m07:25:23,403 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) HHH000389: Unsuccessful: alter table usuario_modulo drop constraint if exists FK_s2a8pgf45lkodn7k17ay96lek
+[0m[31m07:25:23,404 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) ERROR: relation "usuario_modulo" does not exist
+[0m[0m07:25:23,405 INFO  [stdout] (ServerService Thread Pool -- 51) Hibernate: 
+[0m[0m07:25:23,405 INFO  [stdout] (ServerService Thread Pool -- 51)     alter table usuario_modulo 
+[0m[0m07:25:23,405 INFO  [stdout] (ServerService Thread Pool -- 51)         drop constraint if exists FK_n1s7r4831fo9dps2l1w9x2x5e
+[0m[31m07:25:23,406 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) HHH000389: Unsuccessful: alter table usuario_modulo drop constraint if exists FK_n1s7r4831fo9dps2l1w9x2x5e
+[0m[31m07:25:23,407 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) ERROR: relation "usuario_modulo" does not exist
+[0m[0m07:25:23,407 INFO  [stdout] (ServerService Thread Pool -- 51) Hibernate: 
+[0m[0m07:25:23,407 INFO  [stdout] (ServerService Thread Pool -- 51)     drop table Configuracao cascade
+[0m[31m07:25:23,408 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) HHH000389: Unsuccessful: drop table Configuracao cascade
+[0m[31m07:25:23,408 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) ERROR: table "configuracao" does not exist
+[0m[0m07:25:23,408 INFO  [stdout] (ServerService Thread Pool -- 51) Hibernate: 
+[0m[0m07:25:23,408 INFO  [stdout] (ServerService Thread Pool -- 51)     drop table Modulo cascade
+[0m[31m07:25:23,409 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) HHH000389: Unsuccessful: drop table Modulo cascade
+[0m[31m07:25:23,410 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) ERROR: table "modulo" does not exist
+[0m[0m07:25:23,410 INFO  [stdout] (ServerService Thread Pool -- 51) Hibernate: 
+[0m[0m07:25:23,410 INFO  [stdout] (ServerService Thread Pool -- 51)     drop table Usuario cascade
+[0m[31m07:25:23,412 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) HHH000389: Unsuccessful: drop table Usuario cascade
+[0m[31m07:25:23,412 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) ERROR: table "usuario" does not exist
+[0m[0m07:25:23,413 INFO  [stdout] (ServerService Thread Pool -- 51) Hibernate: 
+[0m[0m07:25:23,413 INFO  [stdout] (ServerService Thread Pool -- 51)     drop table configuracao_modulo cascade
+[0m[31m07:25:23,413 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) HHH000389: Unsuccessful: drop table configuracao_modulo cascade
+[0m[31m07:25:23,414 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) ERROR: table "configuracao_modulo" does not exist
+[0m[0m07:25:23,414 INFO  [stdout] (ServerService Thread Pool -- 51) Hibernate: 
+[0m[0m07:25:23,414 INFO  [stdout] (ServerService Thread Pool -- 51)     drop table usuario_modulo cascade
+[0m[31m07:25:23,414 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) HHH000389: Unsuccessful: drop table usuario_modulo cascade
+[0m[31m07:25:23,415 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) ERROR: table "usuario_modulo" does not exist
+[0m[0m07:25:23,415 INFO  [stdout] (ServerService Thread Pool -- 51) Hibernate: 
+[0m[0m07:25:23,415 INFO  [stdout] (ServerService Thread Pool -- 51)     create table Configuracao (
+[0m[0m07:25:23,415 INFO  [stdout] (ServerService Thread Pool -- 51)         id  bigserial not null,
+[0m[0m07:25:23,415 INFO  [stdout] (ServerService Thread Pool -- 51)         nome_projeto varchar(100) not null,
+[0m[0m07:25:23,416 INFO  [stdout] (ServerService Thread Pool -- 51)         primary key (id)
+[0m[0m07:25:23,416 INFO  [stdout] (ServerService Thread Pool -- 51)     )
+[0m[0m07:25:23,555 INFO  [stdout] (ServerService Thread Pool -- 51) Hibernate: 
+[0m[0m07:25:23,555 INFO  [stdout] (ServerService Thread Pool -- 51)     create table Modulo (
+[0m[0m07:25:23,555 INFO  [stdout] (ServerService Thread Pool -- 51)         id  bigserial not null,
+[0m[0m07:25:23,555 INFO  [stdout] (ServerService Thread Pool -- 51)         chave varchar(255) not null,
+[0m[0m07:25:23,556 INFO  [stdout] (ServerService Thread Pool -- 51)         nome varchar(50) not null,
+[0m[0m07:25:23,556 INFO  [stdout] (ServerService Thread Pool -- 51)         url varchar(255) not null,
+[0m[0m07:25:23,556 INFO  [stdout] (ServerService Thread Pool -- 51)         primary key (id)
+[0m[0m07:25:23,556 INFO  [stdout] (ServerService Thread Pool -- 51)     )
+[0m[0m07:25:23,655 INFO  [stdout] (ServerService Thread Pool -- 51) Hibernate: 
+[0m[0m07:25:23,655 INFO  [stdout] (ServerService Thread Pool -- 51)     create table Usuario (
+[0m[0m07:25:23,656 INFO  [stdout] (ServerService Thread Pool -- 51)         id  bigserial not null,
+[0m[0m07:25:23,656 INFO  [stdout] (ServerService Thread Pool -- 51)         email varchar(100) not null,
+[0m[0m07:25:23,656 INFO  [stdout] (ServerService Thread Pool -- 51)         nome varchar(255) not null,
+[0m[0m07:25:23,656 INFO  [stdout] (ServerService Thread Pool -- 51)         senha varchar(255) not null,
+[0m[0m07:25:23,656 INFO  [stdout] (ServerService Thread Pool -- 51)         version int8 not null,
+[0m[0m07:25:23,656 INFO  [stdout] (ServerService Thread Pool -- 51)         primary key (id)
+[0m[0m07:25:23,656 INFO  [stdout] (ServerService Thread Pool -- 51)     )
+[0m[0m07:25:23,755 INFO  [stdout] (ServerService Thread Pool -- 51) Hibernate: 
+[0m[0m07:25:23,756 INFO  [stdout] (ServerService Thread Pool -- 51)     create table configuracao_modulo (
+[0m[0m07:25:23,756 INFO  [stdout] (ServerService Thread Pool -- 51)         id_configuracao int8 not null,
+[0m[0m07:25:23,756 INFO  [stdout] (ServerService Thread Pool -- 51)         id_modulo int8 not null
+[0m[0m07:25:23,756 INFO  [stdout] (ServerService Thread Pool -- 51)     )
+[0m[0m07:25:23,763 INFO  [stdout] (ServerService Thread Pool -- 51) Hibernate: 
+[0m[0m07:25:23,764 INFO  [stdout] (ServerService Thread Pool -- 51)     create table usuario_modulo (
+[0m[0m07:25:23,764 INFO  [stdout] (ServerService Thread Pool -- 51)         id_usuario int8 not null,
+[0m[0m07:25:23,764 INFO  [stdout] (ServerService Thread Pool -- 51)         id_modulo int8 not null
+[0m[0m07:25:23,764 INFO  [stdout] (ServerService Thread Pool -- 51)     )
+[0m[0m07:25:23,772 INFO  [stdout] (ServerService Thread Pool -- 51) Hibernate: 
+[0m[0m07:25:23,773 INFO  [stdout] (ServerService Thread Pool -- 51)     alter table Modulo 
+[0m[0m07:25:23,773 INFO  [stdout] (ServerService Thread Pool -- 51)         add constraint modulo_uk  unique (nome)
+[0m[0m07:25:23,830 INFO  [stdout] (ServerService Thread Pool -- 51) Hibernate: 
+[0m[0m07:25:23,831 INFO  [stdout] (ServerService Thread Pool -- 51)     alter table Usuario 
+[0m[0m07:25:23,831 INFO  [stdout] (ServerService Thread Pool -- 51)         add constraint usuario_uk  unique (email)
+[0m[0m07:25:23,889 INFO  [stdout] (ServerService Thread Pool -- 51) Hibernate: 
+[0m[0m07:25:23,889 INFO  [stdout] (ServerService Thread Pool -- 51)     alter table configuracao_modulo 
+[0m[0m07:25:23,889 INFO  [stdout] (ServerService Thread Pool -- 51)         add constraint FK_674d0evii3h7y5rtoam9xtfil 
+[0m[0m07:25:23,889 INFO  [stdout] (ServerService Thread Pool -- 51)         foreign key (id_modulo) 
+[0m[0m07:25:23,890 INFO  [stdout] (ServerService Thread Pool -- 51)         references Modulo
+[0m[0m07:25:23,897 INFO  [stdout] (ServerService Thread Pool -- 51) Hibernate: 
+[0m[0m07:25:23,897 INFO  [stdout] (ServerService Thread Pool -- 51)     alter table configuracao_modulo 
+[0m[0m07:25:23,898 INFO  [stdout] (ServerService Thread Pool -- 51)         add constraint FK_1clfi8d6u98a27587bis1du3i 
+[0m[0m07:25:23,898 INFO  [stdout] (ServerService Thread Pool -- 51)         foreign key (id_configuracao) 
+[0m[0m07:25:23,898 INFO  [stdout] (ServerService Thread Pool -- 51)         references Configuracao
+[0m[0m07:25:23,906 INFO  [stdout] (ServerService Thread Pool -- 51) Hibernate: 
+[0m[0m07:25:23,907 INFO  [stdout] (ServerService Thread Pool -- 51)     alter table usuario_modulo 
+[0m[0m07:25:23,907 INFO  [stdout] (ServerService Thread Pool -- 51)         add constraint FK_s2a8pgf45lkodn7k17ay96lek 
+[0m[0m07:25:23,907 INFO  [stdout] (ServerService Thread Pool -- 51)         foreign key (id_modulo) 
+[0m[0m07:25:23,907 INFO  [stdout] (ServerService Thread Pool -- 51)         references Modulo
+[0m[0m07:25:23,914 INFO  [stdout] (ServerService Thread Pool -- 51) Hibernate: 
+[0m[0m07:25:23,914 INFO  [stdout] (ServerService Thread Pool -- 51)     alter table usuario_modulo 
+[0m[0m07:25:23,914 INFO  [stdout] (ServerService Thread Pool -- 51)         add constraint FK_n1s7r4831fo9dps2l1w9x2x5e 
+[0m[0m07:25:23,915 INFO  [stdout] (ServerService Thread Pool -- 51)         foreign key (id_usuario) 
+[0m[0m07:25:23,915 INFO  [stdout] (ServerService Thread Pool -- 51)         references Usuario
+[0m[31m07:25:24,039 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) HHH000388: Unsuccessful: SELECT setval('modulo_id_seq', (select max(id) from modulo))
+[0m[31m07:25:24,039 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) A result was returned when none was expected.
+[0m[31m07:25:24,047 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) HHH000388: Unsuccessful: SELECT setval('usuario_id_seq', (select max(id) from usuario))
+[0m[31m07:25:24,047 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) A result was returned when none was expected.
+[0m[31m07:25:24,056 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) HHH000388: Unsuccessful: SELECT setval('configuracao_id_seq', (select max(id) from configuracao))
+[0m[31m07:25:24,056 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) A result was returned when none was expected.
+[0m[0m07:25:24,057 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 51) HHH000230: Schema export complete
+[0m[33m07:25:24,288 WARN  [org.jboss.weld.Event] (MSC service thread 1-5) WELD-000411: Observer method [BackedAnnotatedMethod] public org.omnifaces.VetoAnnotatedTypeExtension.processAnnotatedType(@Observes ProcessAnnotatedType<Object>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[33m07:25:24,305 WARN  [org.jboss.weld.Event] (MSC service thread 1-5) WELD-000411: Observer method [BackedAnnotatedMethod] protected org.apache.deltaspike.core.impl.exclude.extension.ExcludeExtension.vetoBeans(@Observes ProcessAnnotatedType<Object>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[33m07:25:24,315 WARN  [org.jboss.weld.Event] (MSC service thread 1-5) WELD-000411: Observer method [BackedAnnotatedMethod] protected org.apache.deltaspike.core.impl.interceptor.GlobalInterceptorExtension.promoteInterceptors(@Observes ProcessAnnotatedType<Object>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[33m07:25:24,347 WARN  [org.jboss.weld.Event] (MSC service thread 1-5) WELD-000411: Observer method [BackedAnnotatedMethod] protected org.apache.deltaspike.core.impl.message.MessageBundleExtension.detectInterfaces(@Observes ProcessAnnotatedType<Object>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[0m07:25:24,461 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-5) class: org.apache.deltaspike.core.impl.jmx.MBeanExtension activated=true
+[0m[0m07:25:24,470 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-5) class: org.apache.deltaspike.core.impl.message.MessageBundleExtension activated=true
+[0m[0m07:25:24,471 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-5) class: org.apache.deltaspike.core.impl.message.NamedMessageBundleInvocationHandler activated=true
+[0m[0m07:25:24,472 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-5) class: org.apache.deltaspike.core.impl.interceptor.GlobalInterceptorExtension activated=true
+[0m[0m07:25:24,519 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-5) class: org.apache.deltaspike.core.impl.config.ConfigurationExtension activated=true
+[0m[0m07:25:24,519 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-5) class: org.apache.deltaspike.core.impl.exception.control.extension.ExceptionControlExtension activated=true
+[0m[0m07:25:24,573 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-5) class: org.apache.deltaspike.core.impl.exclude.extension.ExcludeExtension activated=true
+[0m[0m07:25:24,573 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-5) class: org.apache.deltaspike.core.impl.exclude.CustomProjectStageBeanFilter activated=true
+[0m[0m07:25:24,573 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-5) class: org.apache.deltaspike.core.impl.exclude.GlobalAlternative activated=true
+[0m[0m07:25:24,575 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-5) class: org.apache.deltaspike.core.impl.scope.DeltaSpikeContextExtension activated=true
+[0m[0m07:25:25,012 INFO  [org.apache.deltaspike.core.util.ProjectStageProducer] (MSC service thread 1-5) Computed the following DeltaSpike ProjectStage: Production
+[0m[0m07:25:26,768 INFO  [io.undertow.servlet] (MSC service thread 1-1) Initializing Shiro environment
+[0m[0m07:25:26,768 INFO  [org.apache.shiro.web.env.EnvironmentLoader] (MSC service thread 1-1) Starting Shiro environment initialization.
+[0m[0m07:25:26,949 INFO  [org.apache.shiro.config.IniSecurityManagerFactory] (MSC service thread 1-1) Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+[0m[0m07:25:26,955 INFO  [org.apache.shiro.web.env.EnvironmentLoader] (MSC service thread 1-1) Shiro environment initialized in 186 ms.
+[0m[0m07:25:27,011 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-1) Initializing Mojarra 2.2.8-jbossorg-1 20140822-1131 for context '/portal'
+[0m[0m07:25:28,640 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-1) Monitoring file:/home/joaovictor/Documentos/CloudOpss/wildfly-8.2.1.Final/standalone/tmp/vfs/temp/temp7ff9ef3c63fcff9b/portal.war-269c07f50e09069e/WEB-INF/faces-config.xml for modifications
+[0m[0m07:25:28,720 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-1) Running on PrimeFaces 5.1
+[0m[0m07:25:28,721 INFO  [org.omnifaces.VersionLoggerEventListener] (MSC service thread 1-1) Using OmniFaces version 1.8.1-20140603
+[0m[0m07:25:29,223 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-1) Deploying javax.ws.rs.core.Application: class br.com.emmanuelneri.portal.ws.RestApplication$Proxy$_$$_WeldClientProxy
+[0m[0m07:25:29,283 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017534: Registered web context: /portal
+[0m[0m07:25:29,401 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) JBAS018559: Deployed "portal.war" (runtime-name : "portal.war")
+[0m[0m07:25:53,239 INFO  [com.ocpsoft.pretty.PrettyFilter] (default task-1) PrettyFilter starting up...
+[0m[0m07:25:53,397 INFO  [com.ocpsoft.pretty.PrettyFilter] (default task-1) PrettyFilter initialized.
+[0m[0m07:26:59,592 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of "cadastros.war" (runtime-name: "cadastros.war")
+[0m[0m07:27:00,371 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) JBAS011401: Read persistence.xml for VendasPU
+[0m[0m07:27:00,445 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'cadastros.war#VendasPU'
+[0m[0m07:27:00,445 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 79) HHH000204: Processing PersistenceUnitInfo [
+	name: VendasPU
+	...]
+[0m[0m07:27:00,498 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016002: Processing weld deployment cadastros.war
+[0m[0m07:27:00,710 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016005: Starting Services for CDI deployment: cadastros.war
+[0m[0m07:27:00,715 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) JBAS016008: Starting weld service for deployment cadastros.war
+[0m[0m07:27:00,725 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'cadastros.war#VendasPU'
+[0m[0m07:27:00,767 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 79) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+[0m[0m07:27:00,768 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 79) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[0m[0m07:27:00,810 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 79) HHH000397: Using ASTQueryTranslatorFactory
+[0m[0m07:27:00,884 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 79) HHH000227: Running hbm2ddl schema export
+[0m[0m07:27:00,885 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: 
+[0m[0m07:27:00,886 INFO  [stdout] (ServerService Thread Pool -- 79)     alter table Veiculo 
+[0m[0m07:27:00,886 INFO  [stdout] (ServerService Thread Pool -- 79)         drop constraint if exists FK_minpdvxs825xi5exnbt4dqqte
+[0m[0m07:27:00,900 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: 
+[0m[0m07:27:00,901 INFO  [stdout] (ServerService Thread Pool -- 79)     alter table usuario_modulo 
+[0m[0m07:27:00,902 INFO  [stdout] (ServerService Thread Pool -- 79)         drop constraint if exists FK_s2a8pgf45lkodn7k17ay96lek
+[0m[0m07:27:00,908 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: 
+[0m[0m07:27:00,909 INFO  [stdout] (ServerService Thread Pool -- 79)     alter table usuario_modulo 
+[0m[0m07:27:00,909 INFO  [stdout] (ServerService Thread Pool -- 79)         drop constraint if exists FK_n1s7r4831fo9dps2l1w9x2x5e
+[0m[0m07:27:00,917 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: 
+[0m[0m07:27:00,918 INFO  [stdout] (ServerService Thread Pool -- 79)     drop table Cliente cascade
+[0m[0m07:27:00,926 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: 
+[0m[0m07:27:00,926 INFO  [stdout] (ServerService Thread Pool -- 79)     drop table Modelo cascade
+[0m[0m07:27:00,934 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: 
+[0m[0m07:27:00,935 INFO  [stdout] (ServerService Thread Pool -- 79)     drop table Modulo cascade
+[0m[0m07:27:00,943 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: 
+[0m[0m07:27:00,943 INFO  [stdout] (ServerService Thread Pool -- 79)     drop table Usuario cascade
+[0m[0m07:27:00,952 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: 
+[0m[0m07:27:00,952 INFO  [stdout] (ServerService Thread Pool -- 79)     drop table Veiculo cascade
+[0m[0m07:27:00,959 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: 
+[0m[0m07:27:00,960 INFO  [stdout] (ServerService Thread Pool -- 79)     drop table usuario_modulo cascade
+[0m[0m07:27:00,968 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: 
+[0m[0m07:27:00,968 INFO  [stdout] (ServerService Thread Pool -- 79)     create table Cliente (
+[0m[0m07:27:00,968 INFO  [stdout] (ServerService Thread Pool -- 79)         id  bigserial not null,
+[0m[0m07:27:00,968 INFO  [stdout] (ServerService Thread Pool -- 79)         cpf_cnpj varchar(255) not null,
+[0m[0m07:27:00,968 INFO  [stdout] (ServerService Thread Pool -- 79)         nome varchar(255) not null,
+[0m[0m07:27:00,968 INFO  [stdout] (ServerService Thread Pool -- 79)         primary key (id)
+[0m[0m07:27:00,968 INFO  [stdout] (ServerService Thread Pool -- 79)     )
+[0m[0m07:27:01,052 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: 
+[0m[0m07:27:01,052 INFO  [stdout] (ServerService Thread Pool -- 79)     create table Modelo (
+[0m[0m07:27:01,052 INFO  [stdout] (ServerService Thread Pool -- 79)         id  bigserial not null,
+[0m[0m07:27:01,052 INFO  [stdout] (ServerService Thread Pool -- 79)         marca varchar(255) not null,
+[0m[0m07:27:01,052 INFO  [stdout] (ServerService Thread Pool -- 79)         nome varchar(255) not null,
+[0m[0m07:27:01,052 INFO  [stdout] (ServerService Thread Pool -- 79)         primary key (id)
+[0m[0m07:27:01,052 INFO  [stdout] (ServerService Thread Pool -- 79)     )
+[0m[0m07:27:01,135 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: 
+[0m[0m07:27:01,135 INFO  [stdout] (ServerService Thread Pool -- 79)     create table Modulo (
+[0m[0m07:27:01,135 INFO  [stdout] (ServerService Thread Pool -- 79)         id  bigserial not null,
+[0m[0m07:27:01,136 INFO  [stdout] (ServerService Thread Pool -- 79)         chave varchar(255) not null,
+[0m[0m07:27:01,136 INFO  [stdout] (ServerService Thread Pool -- 79)         nome varchar(50) not null,
+[0m[0m07:27:01,136 INFO  [stdout] (ServerService Thread Pool -- 79)         url varchar(255) not null,
+[0m[0m07:27:01,136 INFO  [stdout] (ServerService Thread Pool -- 79)         primary key (id)
+[0m[0m07:27:01,136 INFO  [stdout] (ServerService Thread Pool -- 79)     )
+[0m[0m07:27:01,227 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: 
+[0m[0m07:27:01,227 INFO  [stdout] (ServerService Thread Pool -- 79)     create table Usuario (
+[0m[0m07:27:01,227 INFO  [stdout] (ServerService Thread Pool -- 79)         id  bigserial not null,
+[0m[0m07:27:01,228 INFO  [stdout] (ServerService Thread Pool -- 79)         email varchar(255) not null,
+[0m[0m07:27:01,228 INFO  [stdout] (ServerService Thread Pool -- 79)         nome varchar(255) not null,
+[0m[0m07:27:01,228 INFO  [stdout] (ServerService Thread Pool -- 79)         version int8 not null,
+[0m[0m07:27:01,228 INFO  [stdout] (ServerService Thread Pool -- 79)         primary key (id)
+[0m[0m07:27:01,228 INFO  [stdout] (ServerService Thread Pool -- 79)     )
+[0m[0m07:27:01,319 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: 
+[0m[0m07:27:01,320 INFO  [stdout] (ServerService Thread Pool -- 79)     create table Veiculo (
+[0m[0m07:27:01,320 INFO  [stdout] (ServerService Thread Pool -- 79)         id  bigserial not null,
+[0m[0m07:27:01,320 INFO  [stdout] (ServerService Thread Pool -- 79)         nome varchar(255) not null,
+[0m[0m07:27:01,321 INFO  [stdout] (ServerService Thread Pool -- 79)         id_modelo int8 not null,
+[0m[0m07:27:01,321 INFO  [stdout] (ServerService Thread Pool -- 79)         primary key (id)
+[0m[0m07:27:01,321 INFO  [stdout] (ServerService Thread Pool -- 79)     )
+[0m[0m07:27:01,369 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: 
+[0m[0m07:27:01,369 INFO  [stdout] (ServerService Thread Pool -- 79)     create table usuario_modulo (
+[0m[0m07:27:01,370 INFO  [stdout] (ServerService Thread Pool -- 79)         id_usuario int8 not null,
+[0m[0m07:27:01,370 INFO  [stdout] (ServerService Thread Pool -- 79)         id_modulo int8 not null
+[0m[0m07:27:01,370 INFO  [stdout] (ServerService Thread Pool -- 79)     )
+[0m[0m07:27:01,377 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: 
+[0m[0m07:27:01,378 INFO  [stdout] (ServerService Thread Pool -- 79)     alter table Modulo 
+[0m[0m07:27:01,378 INFO  [stdout] (ServerService Thread Pool -- 79)         add constraint modulo_uk  unique (nome)
+[0m[0m07:27:01,428 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: 
+[0m[0m07:27:01,428 INFO  [stdout] (ServerService Thread Pool -- 79)     alter table Veiculo 
+[0m[0m07:27:01,428 INFO  [stdout] (ServerService Thread Pool -- 79)         add constraint FK_minpdvxs825xi5exnbt4dqqte 
+[0m[0m07:27:01,428 INFO  [stdout] (ServerService Thread Pool -- 79)         foreign key (id_modelo) 
+[0m[0m07:27:01,428 INFO  [stdout] (ServerService Thread Pool -- 79)         references Modelo
+[0m[0m07:27:01,436 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: 
+[0m[0m07:27:01,436 INFO  [stdout] (ServerService Thread Pool -- 79)     alter table usuario_modulo 
+[0m[0m07:27:01,436 INFO  [stdout] (ServerService Thread Pool -- 79)         add constraint FK_s2a8pgf45lkodn7k17ay96lek 
+[0m[0m07:27:01,436 INFO  [stdout] (ServerService Thread Pool -- 79)         foreign key (id_modulo) 
+[0m[0m07:27:01,436 INFO  [stdout] (ServerService Thread Pool -- 79)         references Modulo
+[0m[0m07:27:01,444 INFO  [stdout] (ServerService Thread Pool -- 79) Hibernate: 
+[0m[0m07:27:01,445 INFO  [stdout] (ServerService Thread Pool -- 79)     alter table usuario_modulo 
+[0m[0m07:27:01,445 INFO  [stdout] (ServerService Thread Pool -- 79)         add constraint FK_n1s7r4831fo9dps2l1w9x2x5e 
+[0m[0m07:27:01,445 INFO  [stdout] (ServerService Thread Pool -- 79)         foreign key (id_usuario) 
+[0m[0m07:27:01,445 INFO  [stdout] (ServerService Thread Pool -- 79)         references Usuario
+[0m[31m07:27:02,011 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 79) HHH000388: Unsuccessful: SELECT setval('modulo_id_seq', (select max(id) from modulo))
+[0m[31m07:27:02,012 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 79) A result was returned when none was expected.
+[0m[0m07:27:02,012 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 79) HHH000230: Schema export complete
+[0m[33m07:27:02,021 WARN  [org.jboss.weld.Event] (MSC service thread 1-7) WELD-000411: Observer method [BackedAnnotatedMethod] protected org.apache.deltaspike.core.impl.interceptor.GlobalInterceptorExtension.promoteInterceptors(@Observes ProcessAnnotatedType<Object>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[33m07:27:02,038 WARN  [org.jboss.weld.Event] (MSC service thread 1-7) WELD-000411: Observer method [BackedAnnotatedMethod] protected org.apache.deltaspike.core.impl.exclude.extension.ExcludeExtension.vetoBeans(@Observes ProcessAnnotatedType<Object>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[33m07:27:02,040 WARN  [org.jboss.weld.Event] (MSC service thread 1-7) WELD-000411: Observer method [BackedAnnotatedMethod] public org.omnifaces.VetoAnnotatedTypeExtension.processAnnotatedType(@Observes ProcessAnnotatedType<Object>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[33m07:27:02,049 WARN  [org.jboss.weld.Event] (MSC service thread 1-7) WELD-000411: Observer method [BackedAnnotatedMethod] protected org.apache.deltaspike.core.impl.message.MessageBundleExtension.detectInterfaces(@Observes ProcessAnnotatedType<Object>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[0m07:27:02,064 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-7) class: org.apache.deltaspike.core.impl.jmx.MBeanExtension activated=true
+[0m[0m07:27:02,065 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-7) class: org.apache.deltaspike.core.impl.message.MessageBundleExtension activated=true
+[0m[0m07:27:02,066 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-7) class: org.apache.deltaspike.core.impl.message.NamedMessageBundleInvocationHandler activated=true
+[0m[0m07:27:02,074 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-7) class: org.apache.deltaspike.core.impl.interceptor.GlobalInterceptorExtension activated=true
+[0m[0m07:27:02,082 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-7) class: org.apache.deltaspike.core.impl.config.ConfigurationExtension activated=true
+[0m[0m07:27:02,083 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-7) class: org.apache.deltaspike.core.impl.exception.control.extension.ExceptionControlExtension activated=true
+[0m[0m07:27:02,088 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-7) class: org.apache.deltaspike.core.impl.exclude.extension.ExcludeExtension activated=true
+[0m[0m07:27:02,089 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-7) class: org.apache.deltaspike.core.impl.exclude.CustomProjectStageBeanFilter activated=true
+[0m[0m07:27:02,089 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-7) class: org.apache.deltaspike.core.impl.exclude.GlobalAlternative activated=true
+[0m[0m07:27:02,091 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-7) class: org.apache.deltaspike.core.impl.scope.DeltaSpikeContextExtension activated=true
+[0m[0m07:27:02,351 INFO  [org.apache.deltaspike.core.util.ProjectStageProducer] (MSC service thread 1-7) Computed the following DeltaSpike ProjectStage: Production
+[0m[0m07:27:02,843 INFO  [org.apache.deltaspike.core.impl.config.EnvironmentPropertyConfigSourceProvider] (MSC service thread 1-7) Custom config found by DeltaSpike. Name: '/config/application.properties', URL: 'vfs:/content/cadastros.war/WEB-INF/classes/config/application.properties'
+[0m[0m07:27:02,920 INFO  [io.undertow.servlet] (MSC service thread 1-5) Initializing Shiro environment
+[0m[0m07:27:02,923 INFO  [org.apache.shiro.web.env.EnvironmentLoader] (MSC service thread 1-5) Starting Shiro environment initialization.
+[0m[0m07:27:03,009 INFO  [org.apache.shiro.config.IniSecurityManagerFactory] (MSC service thread 1-5) Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+[0m[0m07:27:03,013 INFO  [org.apache.shiro.web.env.EnvironmentLoader] (MSC service thread 1-5) Shiro environment initialized in 90 ms.
+[0m[0m07:27:03,016 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-5) Initializing Mojarra 2.2.8-jbossorg-1 20140822-1131 for context '/cadastros'
+[0m[0m07:27:03,625 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-5) Running on PrimeFaces 5.1
+[0m[0m07:27:03,626 INFO  [org.omnifaces.VersionLoggerEventListener] (MSC service thread 1-5) Using OmniFaces version 1.8.1-20140603
+[0m[0m07:27:03,627 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017534: Registered web context: /cadastros
+[0m[0m07:27:03,732 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) JBAS018559: Deployed "cadastros.war" (runtime-name : "cadastros.war")
+[0m[0m07:28:28,899 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "relatorios.war" (runtime-name: "relatorios.war")
+[0m[0m07:28:29,572 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) JBAS011401: Read persistence.xml for VendasPU
+[0m[0m07:28:29,659 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'relatorios.war#VendasPU'
+[0m[0m07:28:29,659 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 86) HHH000204: Processing PersistenceUnitInfo [
+	name: VendasPU
+	...]
+[0m[0m07:28:29,731 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016002: Processing weld deployment relatorios.war
+[0m[0m07:28:29,954 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016005: Starting Services for CDI deployment: relatorios.war
+[0m[0m07:28:29,964 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016008: Starting weld service for deployment relatorios.war
+[0m[0m07:28:29,975 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'relatorios.war#VendasPU'
+[0m[0m07:28:30,011 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 86) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+[0m[0m07:28:30,012 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 86) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[0m[0m07:28:30,025 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 86) HHH000397: Using ASTQueryTranslatorFactory
+[0m[0m07:28:30,057 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 86) HHH000227: Running hbm2ddl schema export
+[0m[0m07:28:30,058 INFO  [stdout] (ServerService Thread Pool -- 86) Hibernate: 
+[0m[0m07:28:30,058 INFO  [stdout] (ServerService Thread Pool -- 86)     alter table usuario_modulo 
+[0m[0m07:28:30,058 INFO  [stdout] (ServerService Thread Pool -- 86)         drop constraint if exists FK_s2a8pgf45lkodn7k17ay96lek
+[0m[0m07:28:30,098 INFO  [stdout] (ServerService Thread Pool -- 86) Hibernate: 
+[0m[0m07:28:30,098 INFO  [stdout] (ServerService Thread Pool -- 86)     alter table usuario_modulo 
+[0m[0m07:28:30,098 INFO  [stdout] (ServerService Thread Pool -- 86)         drop constraint if exists FK_n1s7r4831fo9dps2l1w9x2x5e
+[0m[0m07:28:30,106 INFO  [stdout] (ServerService Thread Pool -- 86) Hibernate: 
+[0m[0m07:28:30,106 INFO  [stdout] (ServerService Thread Pool -- 86)     drop table Modulo cascade
+[0m[0m07:28:30,134 INFO  [stdout] (ServerService Thread Pool -- 86) Hibernate: 
+[0m[0m07:28:30,134 INFO  [stdout] (ServerService Thread Pool -- 86)     drop table Usuario cascade
+[0m[0m07:28:30,144 INFO  [stdout] (ServerService Thread Pool -- 86) Hibernate: 
+[0m[0m07:28:30,144 INFO  [stdout] (ServerService Thread Pool -- 86)     drop table usuario_modulo cascade
+[0m[0m07:28:30,151 INFO  [stdout] (ServerService Thread Pool -- 86) Hibernate: 
+[0m[0m07:28:30,151 INFO  [stdout] (ServerService Thread Pool -- 86)     create table Modulo (
+[0m[0m07:28:30,151 INFO  [stdout] (ServerService Thread Pool -- 86)         id  bigserial not null,
+[0m[0m07:28:30,151 INFO  [stdout] (ServerService Thread Pool -- 86)         chave varchar(255) not null,
+[0m[0m07:28:30,152 INFO  [stdout] (ServerService Thread Pool -- 86)         nome varchar(50) not null,
+[0m[0m07:28:30,152 INFO  [stdout] (ServerService Thread Pool -- 86)         url varchar(255) not null,
+[0m[0m07:28:30,152 INFO  [stdout] (ServerService Thread Pool -- 86)         primary key (id)
+[0m[0m07:28:30,152 INFO  [stdout] (ServerService Thread Pool -- 86)     )
+[0m[0m07:28:30,243 INFO  [stdout] (ServerService Thread Pool -- 86) Hibernate: 
+[0m[0m07:28:30,243 INFO  [stdout] (ServerService Thread Pool -- 86)     create table Usuario (
+[0m[0m07:28:30,243 INFO  [stdout] (ServerService Thread Pool -- 86)         id  bigserial not null,
+[0m[0m07:28:30,243 INFO  [stdout] (ServerService Thread Pool -- 86)         email varchar(255) not null,
+[0m[0m07:28:30,244 INFO  [stdout] (ServerService Thread Pool -- 86)         nome varchar(255) not null,
+[0m[0m07:28:30,244 INFO  [stdout] (ServerService Thread Pool -- 86)         version int8 not null,
+[0m[0m07:28:30,244 INFO  [stdout] (ServerService Thread Pool -- 86)         primary key (id)
+[0m[0m07:28:30,244 INFO  [stdout] (ServerService Thread Pool -- 86)     )
+[0m[0m07:28:30,335 INFO  [stdout] (ServerService Thread Pool -- 86) Hibernate: 
+[0m[0m07:28:30,335 INFO  [stdout] (ServerService Thread Pool -- 86)     create table usuario_modulo (
+[0m[0m07:28:30,335 INFO  [stdout] (ServerService Thread Pool -- 86)         id_usuario int8 not null,
+[0m[0m07:28:30,335 INFO  [stdout] (ServerService Thread Pool -- 86)         id_modulo int8 not null
+[0m[0m07:28:30,335 INFO  [stdout] (ServerService Thread Pool -- 86)     )
+[0m[0m07:28:30,343 INFO  [stdout] (ServerService Thread Pool -- 86) Hibernate: 
+[0m[0m07:28:30,343 INFO  [stdout] (ServerService Thread Pool -- 86)     alter table Modulo 
+[0m[0m07:28:30,343 INFO  [stdout] (ServerService Thread Pool -- 86)         add constraint modulo_uk  unique (nome)
+[0m[0m07:28:30,393 INFO  [stdout] (ServerService Thread Pool -- 86) Hibernate: 
+[0m[0m07:28:30,393 INFO  [stdout] (ServerService Thread Pool -- 86)     alter table usuario_modulo 
+[0m[0m07:28:30,393 INFO  [stdout] (ServerService Thread Pool -- 86)         add constraint FK_s2a8pgf45lkodn7k17ay96lek 
+[0m[0m07:28:30,393 INFO  [stdout] (ServerService Thread Pool -- 86)         foreign key (id_modulo) 
+[0m[0m07:28:30,393 INFO  [stdout] (ServerService Thread Pool -- 86)         references Modulo
+[0m[0m07:28:30,401 INFO  [stdout] (ServerService Thread Pool -- 86) Hibernate: 
+[0m[0m07:28:30,401 INFO  [stdout] (ServerService Thread Pool -- 86)     alter table usuario_modulo 
+[0m[0m07:28:30,402 INFO  [stdout] (ServerService Thread Pool -- 86)         add constraint FK_n1s7r4831fo9dps2l1w9x2x5e 
+[0m[0m07:28:30,402 INFO  [stdout] (ServerService Thread Pool -- 86)         foreign key (id_usuario) 
+[0m[0m07:28:30,402 INFO  [stdout] (ServerService Thread Pool -- 86)         references Usuario
+[0m[31m07:28:30,460 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 86) HHH000388: Unsuccessful: SELECT setval('modulo_id_seq', (select max(id) from modulo))
+[0m[31m07:28:30,460 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 86) A result was returned when none was expected.
+[0m[0m07:28:30,460 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 86) HHH000230: Schema export complete
+[0m[33m07:28:30,477 WARN  [org.jboss.weld.Event] (MSC service thread 1-3) WELD-000411: Observer method [BackedAnnotatedMethod] protected org.apache.deltaspike.core.impl.message.MessageBundleExtension.detectInterfaces(@Observes ProcessAnnotatedType<Object>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[33m07:28:30,480 WARN  [org.jboss.weld.Event] (MSC service thread 1-3) WELD-000411: Observer method [BackedAnnotatedMethod] protected org.apache.deltaspike.core.impl.exclude.extension.ExcludeExtension.vetoBeans(@Observes ProcessAnnotatedType<Object>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[33m07:28:30,483 WARN  [org.jboss.weld.Event] (MSC service thread 1-3) WELD-000411: Observer method [BackedAnnotatedMethod] protected org.apache.deltaspike.core.impl.interceptor.GlobalInterceptorExtension.promoteInterceptors(@Observes ProcessAnnotatedType<Object>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[33m07:28:30,484 WARN  [org.jboss.weld.Event] (MSC service thread 1-3) WELD-000411: Observer method [BackedAnnotatedMethod] public org.omnifaces.VetoAnnotatedTypeExtension.processAnnotatedType(@Observes ProcessAnnotatedType<Object>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[0m07:28:30,506 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-3) class: org.apache.deltaspike.core.impl.jmx.MBeanExtension activated=true
+[0m[0m07:28:30,507 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-3) class: org.apache.deltaspike.core.impl.message.MessageBundleExtension activated=true
+[0m[0m07:28:30,508 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-3) class: org.apache.deltaspike.core.impl.message.NamedMessageBundleInvocationHandler activated=true
+[0m[0m07:28:30,510 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-3) class: org.apache.deltaspike.core.impl.interceptor.GlobalInterceptorExtension activated=true
+[0m[0m07:28:30,522 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-3) class: org.apache.deltaspike.core.impl.config.ConfigurationExtension activated=true
+[0m[0m07:28:30,523 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-3) class: org.apache.deltaspike.core.impl.exception.control.extension.ExceptionControlExtension activated=true
+[0m[0m07:28:30,527 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-3) class: org.apache.deltaspike.core.impl.exclude.extension.ExcludeExtension activated=true
+[0m[0m07:28:30,528 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-3) class: org.apache.deltaspike.core.impl.exclude.CustomProjectStageBeanFilter activated=true
+[0m[0m07:28:30,529 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-3) class: org.apache.deltaspike.core.impl.exclude.GlobalAlternative activated=true
+[0m[0m07:28:30,532 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-3) class: org.apache.deltaspike.core.impl.scope.DeltaSpikeContextExtension activated=true
+[0m[0m07:28:30,730 INFO  [org.apache.deltaspike.core.util.ProjectStageProducer] (MSC service thread 1-3) Computed the following DeltaSpike ProjectStage: Production
+[0m[0m07:28:31,120 INFO  [org.apache.deltaspike.core.impl.config.EnvironmentPropertyConfigSourceProvider] (MSC service thread 1-3) Custom config found by DeltaSpike. Name: '/config/application.properties', URL: 'vfs:/content/relatorios.war/WEB-INF/classes/config/application.properties'
+[0m[0m07:28:31,201 INFO  [io.undertow.servlet] (MSC service thread 1-4) Initializing Shiro environment
+[0m[0m07:28:31,201 INFO  [org.apache.shiro.web.env.EnvironmentLoader] (MSC service thread 1-4) Starting Shiro environment initialization.
+[0m[0m07:28:31,334 INFO  [org.apache.shiro.config.IniSecurityManagerFactory] (MSC service thread 1-4) Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+[0m[0m07:28:31,341 INFO  [org.apache.shiro.web.env.EnvironmentLoader] (MSC service thread 1-4) Shiro environment initialized in 139 ms.
+[0m[0m07:28:31,344 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-4) Initializing Mojarra 2.2.8-jbossorg-1 20140822-1131 for context '/relatorios'
+[0m[0m07:28:32,094 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-4) Running on PrimeFaces 5.1
+[0m[0m07:28:32,095 INFO  [org.omnifaces.VersionLoggerEventListener] (MSC service thread 1-4) Using OmniFaces version 1.8.1-20140603
+[0m[0m07:28:32,095 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017534: Registered web context: /relatorios
+[0m[0m07:28:32,190 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) JBAS018559: Deployed "relatorios.war" (runtime-name : "relatorios.war")
+[0m[0m07:29:27,303 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "pedidos.war" (runtime-name: "pedidos.war")
+[0m[0m07:29:27,851 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) JBAS011401: Read persistence.xml for VendasPU
+[0m[0m07:29:27,917 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 95) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'pedidos.war#VendasPU'
+[0m[0m07:29:27,918 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 95) HHH000204: Processing PersistenceUnitInfo [
+	name: VendasPU
+	...]
+[0m[0m07:29:28,042 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016002: Processing weld deployment pedidos.war
+[0m[0m07:29:28,232 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016005: Starting Services for CDI deployment: pedidos.war
+[0m[0m07:29:28,236 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016008: Starting weld service for deployment pedidos.war
+[0m[0m07:29:28,241 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 95) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'pedidos.war#VendasPU'
+[0m[0m07:29:28,276 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 95) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+[0m[0m07:29:28,277 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 95) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[0m[0m07:29:28,322 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 95) HHH000397: Using ASTQueryTranslatorFactory
+[0m[0m07:29:28,431 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000227: Running hbm2ddl schema export
+[0m[0m07:29:28,431 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,431 INFO  [stdout] (ServerService Thread Pool -- 95)     alter table Pedido 
+[0m[0m07:29:28,432 INFO  [stdout] (ServerService Thread Pool -- 95)         drop constraint if exists FK_cs7h2g9pjv0a7vchneifdhjvl
+[0m[31m07:29:28,432 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000389: Unsuccessful: alter table Pedido drop constraint if exists FK_cs7h2g9pjv0a7vchneifdhjvl
+[0m[31m07:29:28,433 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) ERROR: relation "pedido" does not exist
+[0m[0m07:29:28,433 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,433 INFO  [stdout] (ServerService Thread Pool -- 95)     alter table Pedido 
+[0m[0m07:29:28,433 INFO  [stdout] (ServerService Thread Pool -- 95)         drop constraint if exists FK_4cluxicwcl5uttbix8inrfwac
+[0m[31m07:29:28,434 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000389: Unsuccessful: alter table Pedido drop constraint if exists FK_4cluxicwcl5uttbix8inrfwac
+[0m[31m07:29:28,434 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) ERROR: relation "pedido" does not exist
+[0m[0m07:29:28,434 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,434 INFO  [stdout] (ServerService Thread Pool -- 95)     alter table Veiculo 
+[0m[0m07:29:28,434 INFO  [stdout] (ServerService Thread Pool -- 95)         drop constraint if exists FK_minpdvxs825xi5exnbt4dqqte
+[0m[31m07:29:28,435 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000389: Unsuccessful: alter table Veiculo drop constraint if exists FK_minpdvxs825xi5exnbt4dqqte
+[0m[31m07:29:28,435 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) ERROR: relation "veiculo" does not exist
+[0m[0m07:29:28,435 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,436 INFO  [stdout] (ServerService Thread Pool -- 95)     alter table item_pedido 
+[0m[0m07:29:28,436 INFO  [stdout] (ServerService Thread Pool -- 95)         drop constraint if exists FK_k4avqwrpgqntfporaxctj79v7
+[0m[31m07:29:28,436 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000389: Unsuccessful: alter table item_pedido drop constraint if exists FK_k4avqwrpgqntfporaxctj79v7
+[0m[31m07:29:28,437 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) ERROR: relation "item_pedido" does not exist
+[0m[0m07:29:28,437 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,437 INFO  [stdout] (ServerService Thread Pool -- 95)     alter table item_pedido 
+[0m[0m07:29:28,437 INFO  [stdout] (ServerService Thread Pool -- 95)         drop constraint if exists FK_fg402ec9gwbyi8x233p2lrrx
+[0m[31m07:29:28,438 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000389: Unsuccessful: alter table item_pedido drop constraint if exists FK_fg402ec9gwbyi8x233p2lrrx
+[0m[31m07:29:28,438 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) ERROR: relation "item_pedido" does not exist
+[0m[0m07:29:28,438 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,438 INFO  [stdout] (ServerService Thread Pool -- 95)     alter table usuario_modulo 
+[0m[0m07:29:28,438 INFO  [stdout] (ServerService Thread Pool -- 95)         drop constraint if exists FK_s2a8pgf45lkodn7k17ay96lek
+[0m[31m07:29:28,439 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000389: Unsuccessful: alter table usuario_modulo drop constraint if exists FK_s2a8pgf45lkodn7k17ay96lek
+[0m[31m07:29:28,439 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) ERROR: relation "usuario_modulo" does not exist
+[0m[0m07:29:28,439 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,440 INFO  [stdout] (ServerService Thread Pool -- 95)     alter table usuario_modulo 
+[0m[0m07:29:28,440 INFO  [stdout] (ServerService Thread Pool -- 95)         drop constraint if exists FK_n1s7r4831fo9dps2l1w9x2x5e
+[0m[31m07:29:28,440 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000389: Unsuccessful: alter table usuario_modulo drop constraint if exists FK_n1s7r4831fo9dps2l1w9x2x5e
+[0m[31m07:29:28,440 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) ERROR: relation "usuario_modulo" does not exist
+[0m[0m07:29:28,441 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,441 INFO  [stdout] (ServerService Thread Pool -- 95)     drop table Cliente cascade
+[0m[31m07:29:28,441 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000389: Unsuccessful: drop table Cliente cascade
+[0m[31m07:29:28,442 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) ERROR: table "cliente" does not exist
+[0m[0m07:29:28,442 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,442 INFO  [stdout] (ServerService Thread Pool -- 95)     drop table Modelo cascade
+[0m[31m07:29:28,442 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000389: Unsuccessful: drop table Modelo cascade
+[0m[31m07:29:28,443 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) ERROR: table "modelo" does not exist
+[0m[0m07:29:28,443 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,443 INFO  [stdout] (ServerService Thread Pool -- 95)     drop table Modulo cascade
+[0m[31m07:29:28,444 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000389: Unsuccessful: drop table Modulo cascade
+[0m[31m07:29:28,444 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) ERROR: table "modulo" does not exist
+[0m[0m07:29:28,444 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,444 INFO  [stdout] (ServerService Thread Pool -- 95)     drop table Pedido cascade
+[0m[31m07:29:28,445 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000389: Unsuccessful: drop table Pedido cascade
+[0m[31m07:29:28,445 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) ERROR: table "pedido" does not exist
+[0m[0m07:29:28,445 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,445 INFO  [stdout] (ServerService Thread Pool -- 95)     drop table Usuario cascade
+[0m[31m07:29:28,446 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000389: Unsuccessful: drop table Usuario cascade
+[0m[31m07:29:28,446 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) ERROR: table "usuario" does not exist
+[0m[0m07:29:28,447 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,447 INFO  [stdout] (ServerService Thread Pool -- 95)     drop table Veiculo cascade
+[0m[31m07:29:28,449 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000389: Unsuccessful: drop table Veiculo cascade
+[0m[31m07:29:28,449 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) ERROR: table "veiculo" does not exist
+[0m[0m07:29:28,450 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,450 INFO  [stdout] (ServerService Thread Pool -- 95)     drop table item_pedido cascade
+[0m[31m07:29:28,451 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000389: Unsuccessful: drop table item_pedido cascade
+[0m[31m07:29:28,451 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) ERROR: table "item_pedido" does not exist
+[0m[0m07:29:28,451 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,451 INFO  [stdout] (ServerService Thread Pool -- 95)     drop table usuario_modulo cascade
+[0m[31m07:29:28,453 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000389: Unsuccessful: drop table usuario_modulo cascade
+[0m[31m07:29:28,453 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) ERROR: table "usuario_modulo" does not exist
+[0m[0m07:29:28,453 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,453 INFO  [stdout] (ServerService Thread Pool -- 95)     create table Cliente (
+[0m[0m07:29:28,453 INFO  [stdout] (ServerService Thread Pool -- 95)         id  bigserial not null,
+[0m[0m07:29:28,453 INFO  [stdout] (ServerService Thread Pool -- 95)         cpf_cnpj varchar(255) not null,
+[0m[0m07:29:28,453 INFO  [stdout] (ServerService Thread Pool -- 95)         nome varchar(255) not null,
+[0m[0m07:29:28,453 INFO  [stdout] (ServerService Thread Pool -- 95)         primary key (id)
+[0m[0m07:29:28,454 INFO  [stdout] (ServerService Thread Pool -- 95)     )
+[0m[0m07:29:28,571 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,572 INFO  [stdout] (ServerService Thread Pool -- 95)     create table Modelo (
+[0m[0m07:29:28,572 INFO  [stdout] (ServerService Thread Pool -- 95)         id  bigserial not null,
+[0m[0m07:29:28,572 INFO  [stdout] (ServerService Thread Pool -- 95)         marca varchar(255) not null,
+[0m[0m07:29:28,572 INFO  [stdout] (ServerService Thread Pool -- 95)         nome varchar(255) not null,
+[0m[0m07:29:28,572 INFO  [stdout] (ServerService Thread Pool -- 95)         primary key (id)
+[0m[0m07:29:28,572 INFO  [stdout] (ServerService Thread Pool -- 95)     )
+[0m[0m07:29:28,655 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,655 INFO  [stdout] (ServerService Thread Pool -- 95)     create table Modulo (
+[0m[0m07:29:28,655 INFO  [stdout] (ServerService Thread Pool -- 95)         id  bigserial not null,
+[0m[0m07:29:28,655 INFO  [stdout] (ServerService Thread Pool -- 95)         chave varchar(255) not null,
+[0m[0m07:29:28,655 INFO  [stdout] (ServerService Thread Pool -- 95)         nome varchar(50) not null,
+[0m[0m07:29:28,656 INFO  [stdout] (ServerService Thread Pool -- 95)         url varchar(255) not null,
+[0m[0m07:29:28,656 INFO  [stdout] (ServerService Thread Pool -- 95)         primary key (id)
+[0m[0m07:29:28,656 INFO  [stdout] (ServerService Thread Pool -- 95)     )
+[0m[0m07:29:28,722 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,722 INFO  [stdout] (ServerService Thread Pool -- 95)     create table Pedido (
+[0m[0m07:29:28,722 INFO  [stdout] (ServerService Thread Pool -- 95)         id  bigserial not null,
+[0m[0m07:29:28,722 INFO  [stdout] (ServerService Thread Pool -- 95)         data_criacao date not null,
+[0m[0m07:29:28,723 INFO  [stdout] (ServerService Thread Pool -- 95)         data_finalizacao date,
+[0m[0m07:29:28,723 INFO  [stdout] (ServerService Thread Pool -- 95)         situacaoPedido varchar(255) not null,
+[0m[0m07:29:28,723 INFO  [stdout] (ServerService Thread Pool -- 95)         valor_total numeric(19, 2) not null,
+[0m[0m07:29:28,723 INFO  [stdout] (ServerService Thread Pool -- 95)         id_cliente int8 not null,
+[0m[0m07:29:28,723 INFO  [stdout] (ServerService Thread Pool -- 95)         id_usuario int8 not null,
+[0m[0m07:29:28,723 INFO  [stdout] (ServerService Thread Pool -- 95)         primary key (id)
+[0m[0m07:29:28,723 INFO  [stdout] (ServerService Thread Pool -- 95)     )
+[0m[0m07:29:28,764 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,764 INFO  [stdout] (ServerService Thread Pool -- 95)     create table Usuario (
+[0m[0m07:29:28,764 INFO  [stdout] (ServerService Thread Pool -- 95)         id  bigserial not null,
+[0m[0m07:29:28,764 INFO  [stdout] (ServerService Thread Pool -- 95)         email varchar(255) not null,
+[0m[0m07:29:28,764 INFO  [stdout] (ServerService Thread Pool -- 95)         nome varchar(255) not null,
+[0m[0m07:29:28,764 INFO  [stdout] (ServerService Thread Pool -- 95)         version int8 not null,
+[0m[0m07:29:28,764 INFO  [stdout] (ServerService Thread Pool -- 95)         primary key (id)
+[0m[0m07:29:28,765 INFO  [stdout] (ServerService Thread Pool -- 95)     )
+[0m[0m07:29:28,864 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,864 INFO  [stdout] (ServerService Thread Pool -- 95)     create table Veiculo (
+[0m[0m07:29:28,864 INFO  [stdout] (ServerService Thread Pool -- 95)         id  bigserial not null,
+[0m[0m07:29:28,864 INFO  [stdout] (ServerService Thread Pool -- 95)         nome varchar(255) not null,
+[0m[0m07:29:28,864 INFO  [stdout] (ServerService Thread Pool -- 95)         id_modelo int8 not null,
+[0m[0m07:29:28,864 INFO  [stdout] (ServerService Thread Pool -- 95)         primary key (id)
+[0m[0m07:29:28,864 INFO  [stdout] (ServerService Thread Pool -- 95)     )
+[0m[0m07:29:28,914 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,914 INFO  [stdout] (ServerService Thread Pool -- 95)     create table item_pedido (
+[0m[0m07:29:28,914 INFO  [stdout] (ServerService Thread Pool -- 95)         id  bigserial not null,
+[0m[0m07:29:28,914 INFO  [stdout] (ServerService Thread Pool -- 95)         quantidade int4 not null,
+[0m[0m07:29:28,915 INFO  [stdout] (ServerService Thread Pool -- 95)         valor_total numeric(19, 2) not null,
+[0m[0m07:29:28,915 INFO  [stdout] (ServerService Thread Pool -- 95)         valor_unitario numeric(19, 2) not null,
+[0m[0m07:29:28,915 INFO  [stdout] (ServerService Thread Pool -- 95)         id_veiculo int8 not null,
+[0m[0m07:29:28,915 INFO  [stdout] (ServerService Thread Pool -- 95)         id_pedido int8,
+[0m[0m07:29:28,915 INFO  [stdout] (ServerService Thread Pool -- 95)         primary key (id)
+[0m[0m07:29:28,915 INFO  [stdout] (ServerService Thread Pool -- 95)     )
+[0m[0m07:29:28,981 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,981 INFO  [stdout] (ServerService Thread Pool -- 95)     create table usuario_modulo (
+[0m[0m07:29:28,981 INFO  [stdout] (ServerService Thread Pool -- 95)         id_usuario int8 not null,
+[0m[0m07:29:28,981 INFO  [stdout] (ServerService Thread Pool -- 95)         id_modulo int8 not null
+[0m[0m07:29:28,981 INFO  [stdout] (ServerService Thread Pool -- 95)     )
+[0m[0m07:29:28,989 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:28,989 INFO  [stdout] (ServerService Thread Pool -- 95)     alter table Modulo 
+[0m[0m07:29:28,989 INFO  [stdout] (ServerService Thread Pool -- 95)         add constraint modulo_uk  unique (nome)
+[0m[0m07:29:29,039 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:29,039 INFO  [stdout] (ServerService Thread Pool -- 95)     alter table Pedido 
+[0m[0m07:29:29,040 INFO  [stdout] (ServerService Thread Pool -- 95)         add constraint FK_cs7h2g9pjv0a7vchneifdhjvl 
+[0m[0m07:29:29,040 INFO  [stdout] (ServerService Thread Pool -- 95)         foreign key (id_cliente) 
+[0m[0m07:29:29,040 INFO  [stdout] (ServerService Thread Pool -- 95)         references Cliente
+[0m[0m07:29:29,048 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:29,048 INFO  [stdout] (ServerService Thread Pool -- 95)     alter table Pedido 
+[0m[0m07:29:29,048 INFO  [stdout] (ServerService Thread Pool -- 95)         add constraint FK_4cluxicwcl5uttbix8inrfwac 
+[0m[0m07:29:29,048 INFO  [stdout] (ServerService Thread Pool -- 95)         foreign key (id_usuario) 
+[0m[0m07:29:29,048 INFO  [stdout] (ServerService Thread Pool -- 95)         references Usuario
+[0m[0m07:29:29,057 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:29,057 INFO  [stdout] (ServerService Thread Pool -- 95)     alter table Veiculo 
+[0m[0m07:29:29,057 INFO  [stdout] (ServerService Thread Pool -- 95)         add constraint FK_minpdvxs825xi5exnbt4dqqte 
+[0m[0m07:29:29,057 INFO  [stdout] (ServerService Thread Pool -- 95)         foreign key (id_modelo) 
+[0m[0m07:29:29,057 INFO  [stdout] (ServerService Thread Pool -- 95)         references Modelo
+[0m[0m07:29:29,064 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:29,065 INFO  [stdout] (ServerService Thread Pool -- 95)     alter table item_pedido 
+[0m[0m07:29:29,065 INFO  [stdout] (ServerService Thread Pool -- 95)         add constraint FK_k4avqwrpgqntfporaxctj79v7 
+[0m[0m07:29:29,065 INFO  [stdout] (ServerService Thread Pool -- 95)         foreign key (id_veiculo) 
+[0m[0m07:29:29,065 INFO  [stdout] (ServerService Thread Pool -- 95)         references Veiculo
+[0m[0m07:29:29,073 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:29,073 INFO  [stdout] (ServerService Thread Pool -- 95)     alter table item_pedido 
+[0m[0m07:29:29,073 INFO  [stdout] (ServerService Thread Pool -- 95)         add constraint FK_fg402ec9gwbyi8x233p2lrrx 
+[0m[0m07:29:29,074 INFO  [stdout] (ServerService Thread Pool -- 95)         foreign key (id_pedido) 
+[0m[0m07:29:29,074 INFO  [stdout] (ServerService Thread Pool -- 95)         references Pedido
+[0m[0m07:29:29,081 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:29,081 INFO  [stdout] (ServerService Thread Pool -- 95)     alter table usuario_modulo 
+[0m[0m07:29:29,081 INFO  [stdout] (ServerService Thread Pool -- 95)         add constraint FK_s2a8pgf45lkodn7k17ay96lek 
+[0m[0m07:29:29,081 INFO  [stdout] (ServerService Thread Pool -- 95)         foreign key (id_modulo) 
+[0m[0m07:29:29,082 INFO  [stdout] (ServerService Thread Pool -- 95)         references Modulo
+[0m[0m07:29:29,089 INFO  [stdout] (ServerService Thread Pool -- 95) Hibernate: 
+[0m[0m07:29:29,090 INFO  [stdout] (ServerService Thread Pool -- 95)     alter table usuario_modulo 
+[0m[0m07:29:29,090 INFO  [stdout] (ServerService Thread Pool -- 95)         add constraint FK_n1s7r4831fo9dps2l1w9x2x5e 
+[0m[0m07:29:29,090 INFO  [stdout] (ServerService Thread Pool -- 95)         foreign key (id_usuario) 
+[0m[0m07:29:29,090 INFO  [stdout] (ServerService Thread Pool -- 95)         references Usuario
+[0m[31m07:29:29,723 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000388: Unsuccessful: SELECT setval('modulo_id_seq', (select max(id) from modulo))
+[0m[31m07:29:29,723 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) A result was returned when none was expected.
+[0m[0m07:29:29,723 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 95) HHH000230: Schema export complete
+[0m[33m07:29:29,783 WARN  [org.jboss.weld.Event] (MSC service thread 1-2) WELD-000411: Observer method [BackedAnnotatedMethod] protected org.apache.deltaspike.core.impl.interceptor.GlobalInterceptorExtension.promoteInterceptors(@Observes ProcessAnnotatedType<Object>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[33m07:29:29,786 WARN  [org.jboss.weld.Event] (MSC service thread 1-2) WELD-000411: Observer method [BackedAnnotatedMethod] protected org.apache.deltaspike.core.impl.message.MessageBundleExtension.detectInterfaces(@Observes ProcessAnnotatedType<Object>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[33m07:29:29,791 WARN  [org.jboss.weld.Event] (MSC service thread 1-2) WELD-000411: Observer method [BackedAnnotatedMethod] protected org.apache.deltaspike.core.impl.exclude.extension.ExcludeExtension.vetoBeans(@Observes ProcessAnnotatedType<Object>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[33m07:29:29,799 WARN  [org.jboss.weld.Event] (MSC service thread 1-2) WELD-000411: Observer method [BackedAnnotatedMethod] public org.omnifaces.VetoAnnotatedTypeExtension.processAnnotatedType(@Observes ProcessAnnotatedType<Object>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+[0m[0m07:29:29,813 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-2) class: org.apache.deltaspike.core.impl.jmx.MBeanExtension activated=true
+[0m[0m07:29:29,814 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-2) class: org.apache.deltaspike.core.impl.message.MessageBundleExtension activated=true
+[0m[0m07:29:29,818 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-2) class: org.apache.deltaspike.core.impl.message.NamedMessageBundleInvocationHandler activated=true
+[0m[0m07:29:29,819 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-2) class: org.apache.deltaspike.core.impl.interceptor.GlobalInterceptorExtension activated=true
+[0m[0m07:29:29,828 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-2) class: org.apache.deltaspike.core.impl.config.ConfigurationExtension activated=true
+[0m[0m07:29:29,829 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-2) class: org.apache.deltaspike.core.impl.exception.control.extension.ExceptionControlExtension activated=true
+[0m[0m07:29:29,833 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-2) class: org.apache.deltaspike.core.impl.exclude.extension.ExcludeExtension activated=true
+[0m[0m07:29:29,834 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-2) class: org.apache.deltaspike.core.impl.exclude.CustomProjectStageBeanFilter activated=true
+[0m[0m07:29:29,834 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-2) class: org.apache.deltaspike.core.impl.exclude.GlobalAlternative activated=true
+[0m[0m07:29:29,835 INFO  [org.apache.deltaspike.core.util.ClassDeactivationUtils] (MSC service thread 1-2) class: org.apache.deltaspike.core.impl.scope.DeltaSpikeContextExtension activated=true
+[0m[0m07:29:30,090 INFO  [org.apache.deltaspike.core.util.ProjectStageProducer] (MSC service thread 1-2) Computed the following DeltaSpike ProjectStage: Production
+[0m[0m07:29:30,485 INFO  [org.apache.deltaspike.core.impl.config.EnvironmentPropertyConfigSourceProvider] (MSC service thread 1-2) Custom config found by DeltaSpike. Name: '/config/application.properties', URL: 'vfs:/content/pedidos.war/WEB-INF/classes/config/application.properties'
+[0m[0m07:29:30,582 INFO  [io.undertow.servlet] (MSC service thread 1-6) Initializing Shiro environment
+[0m[0m07:29:30,583 INFO  [org.apache.shiro.web.env.EnvironmentLoader] (MSC service thread 1-6) Starting Shiro environment initialization.
+[0m[0m07:29:30,709 INFO  [org.apache.shiro.config.IniSecurityManagerFactory] (MSC service thread 1-6) Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+[0m[0m07:29:30,715 INFO  [org.apache.shiro.web.env.EnvironmentLoader] (MSC service thread 1-6) Shiro environment initialized in 132 ms.
+[0m[0m07:29:30,719 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-6) Initializing Mojarra 2.2.8-jbossorg-1 20140822-1131 for context '/pedidos'
+[0m[0m07:29:31,451 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-6) Running on PrimeFaces 5.1
+[0m[0m07:29:31,451 INFO  [org.omnifaces.VersionLoggerEventListener] (MSC service thread 1-6) Using OmniFaces version 1.8.1-20140603
+[0m[0m07:29:31,482 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-6) Deploying javax.ws.rs.core.Application: class br.com.emmanuelneri.vendas.ws.RestApplication$Proxy$_$$_WeldClientProxy
+[0m[0m07:29:31,501 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017534: Registered web context: /pedidos
+[0m[0m07:29:31,611 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "pedidos.war" (runtime-name : "pedidos.war")
+[0m[0m07:30:00,083 INFO  [stdout] (default task-5) Hibernate: 
+[0m[0m07:30:00,083 INFO  [stdout] (default task-5)     select
+[0m[0m07:30:00,083 INFO  [stdout] (default task-5)         usuario0_.id as id1_2_0_,
+[0m[0m07:30:00,083 INFO  [stdout] (default task-5)         modulo2_.id as id1_1_1_,
+[0m[0m07:30:00,083 INFO  [stdout] (default task-5)         usuario0_.email as email2_2_0_,
+[0m[0m07:30:00,083 INFO  [stdout] (default task-5)         usuario0_.nome as nome3_2_0_,
+[0m[0m07:30:00,083 INFO  [stdout] (default task-5)         usuario0_.senha as senha4_2_0_,
+[0m[0m07:30:00,083 INFO  [stdout] (default task-5)         usuario0_.version as version5_2_0_,
+[0m[0m07:30:00,083 INFO  [stdout] (default task-5)         modulo2_.chave as chave2_1_1_,
+[0m[0m07:30:00,084 INFO  [stdout] (default task-5)         modulo2_.nome as nome3_1_1_,
+[0m[0m07:30:00,084 INFO  [stdout] (default task-5)         modulo2_.url as url4_1_1_,
+[0m[0m07:30:00,084 INFO  [stdout] (default task-5)         modulos1_.id_usuario as id_usuar1_2_0__,
+[0m[0m07:30:00,084 INFO  [stdout] (default task-5)         modulos1_.id_modulo as id_modul2_4_0__ 
+[0m[0m07:30:00,084 INFO  [stdout] (default task-5)     from
+[0m[0m07:30:00,084 INFO  [stdout] (default task-5)         Usuario usuario0_ 
+[0m[0m07:30:00,084 INFO  [stdout] (default task-5)     left outer join
+[0m[0m07:30:00,084 INFO  [stdout] (default task-5)         usuario_modulo modulos1_ 
+[0m[0m07:30:00,084 INFO  [stdout] (default task-5)             on usuario0_.id=modulos1_.id_usuario 
+[0m[0m07:30:00,084 INFO  [stdout] (default task-5)     left outer join
+[0m[0m07:30:00,084 INFO  [stdout] (default task-5)         Modulo modulo2_ 
+[0m[0m07:30:00,084 INFO  [stdout] (default task-5)             on modulos1_.id_modulo=modulo2_.id 
+[0m[0m07:30:00,084 INFO  [stdout] (default task-5)     where
+[0m[0m07:30:00,084 INFO  [stdout] (default task-5)         usuario0_.email=?
+[0m[0m07:30:00,150 INFO  [stdout] (default task-5) Hibernate: 
+[0m[0m07:30:00,150 INFO  [stdout] (default task-5)     select
+[0m[0m07:30:00,150 INFO  [stdout] (default task-5)         usuario0_.id as id1_2_,
+[0m[0m07:30:00,151 INFO  [stdout] (default task-5)         usuario0_.email as email2_2_,
+[0m[0m07:30:00,151 INFO  [stdout] (default task-5)         usuario0_.nome as nome3_2_,
+[0m[0m07:30:00,151 INFO  [stdout] (default task-5)         usuario0_.senha as senha4_2_,
+[0m[0m07:30:00,151 INFO  [stdout] (default task-5)         usuario0_.version as version5_2_ 
+[0m[0m07:30:00,151 INFO  [stdout] (default task-5)     from
+[0m[0m07:30:00,151 INFO  [stdout] (default task-5)         Usuario usuario0_ 
+[0m[0m07:30:00,151 INFO  [stdout] (default task-5)     where
+[0m[0m07:30:00,151 INFO  [stdout] (default task-5)         usuario0_.email=?
+[0m[0m07:30:00,432 INFO  [stdout] (default task-6) Hibernate: 
+[0m[0m07:30:00,432 INFO  [stdout] (default task-6)     select
+[0m[0m07:30:00,432 INFO  [stdout] (default task-6)         configurac0_.id as id1_0_0_,
+[0m[0m07:30:00,432 INFO  [stdout] (default task-6)         configurac0_.nome_projeto as nome_pro2_0_0_ 
+[0m[0m07:30:00,432 INFO  [stdout] (default task-6)     from
+[0m[0m07:30:00,432 INFO  [stdout] (default task-6)         Configuracao configurac0_ 
+[0m[0m07:30:00,432 INFO  [stdout] (default task-6)     where
+[0m[0m07:30:00,432 INFO  [stdout] (default task-6)         configurac0_.id=?
+[0m[0m07:30:00,440 INFO  [stdout] (default task-6) Hibernate: 
+[0m[0m07:30:00,440 INFO  [stdout] (default task-6)     select
+[0m[0m07:30:00,441 INFO  [stdout] (default task-6)         modulos0_.id_configuracao as id_confi1_0_0_,
+[0m[0m07:30:00,441 INFO  [stdout] (default task-6)         modulos0_.id_modulo as id_modul2_3_0_,
+[0m[0m07:30:00,441 INFO  [stdout] (default task-6)         modulo1_.id as id1_1_1_,
+[0m[0m07:30:00,441 INFO  [stdout] (default task-6)         modulo1_.chave as chave2_1_1_,
+[0m[0m07:30:00,441 INFO  [stdout] (default task-6)         modulo1_.nome as nome3_1_1_,
+[0m[0m07:30:00,442 INFO  [stdout] (default task-6)         modulo1_.url as url4_1_1_ 
+[0m[0m07:30:00,442 INFO  [stdout] (default task-6)     from
+[0m[0m07:30:00,442 INFO  [stdout] (default task-6)         configuracao_modulo modulos0_ 
+[0m[0m07:30:00,442 INFO  [stdout] (default task-6)     inner join
+[0m[0m07:30:00,442 INFO  [stdout] (default task-6)         Modulo modulo1_ 
+[0m[0m07:30:00,443 INFO  [stdout] (default task-6)             on modulos0_.id_modulo=modulo1_.id 
+[0m[0m07:30:00,443 INFO  [stdout] (default task-6)     where
+[0m[0m07:30:00,443 INFO  [stdout] (default task-6)         modulos0_.id_configuracao=?
+[0m[0m07:30:08,613 INFO  [stdout] (default task-10) Hibernate: 
+[0m[0m07:30:08,636 INFO  [stdout] (default task-10)     select
+[0m[0m07:30:08,636 INFO  [stdout] (default task-10)         configurac0_.id as id1_0_0_,
+[0m[0m07:30:08,636 INFO  [stdout] (default task-10)         configurac0_.nome_projeto as nome_pro2_0_0_ 
+[0m[0m07:30:08,636 INFO  [stdout] (default task-10)     from
+[0m[0m07:30:08,636 INFO  [stdout] (default task-10)         Configuracao configurac0_ 
+[0m[0m07:30:08,636 INFO  [stdout] (default task-10)     where
+[0m[0m07:30:08,636 INFO  [stdout] (default task-10)         configurac0_.id=?
+[0m[0m07:30:08,639 INFO  [stdout] (default task-10) Hibernate: 
+[0m[0m07:30:08,639 INFO  [stdout] (default task-10)     select
+[0m[0m07:30:08,639 INFO  [stdout] (default task-10)         modulos0_.id_configuracao as id_confi1_0_0_,
+[0m[0m07:30:08,640 INFO  [stdout] (default task-10)         modulos0_.id_modulo as id_modul2_3_0_,
+[0m[0m07:30:08,640 INFO  [stdout] (default task-10)         modulo1_.id as id1_1_1_,
+[0m[0m07:30:08,640 INFO  [stdout] (default task-10)         modulo1_.chave as chave2_1_1_,
+[0m[0m07:30:08,640 INFO  [stdout] (default task-10)         modulo1_.nome as nome3_1_1_,
+[0m[0m07:30:08,640 INFO  [stdout] (default task-10)         modulo1_.url as url4_1_1_ 
+[0m[0m07:30:08,640 INFO  [stdout] (default task-10)     from
+[0m[0m07:30:08,640 INFO  [stdout] (default task-10)         configuracao_modulo modulos0_ 
+[0m[0m07:30:08,640 INFO  [stdout] (default task-10)     inner join
+[0m[0m07:30:08,640 INFO  [stdout] (default task-10)         Modulo modulo1_ 
+[0m[0m07:30:08,641 INFO  [stdout] (default task-10)             on modulos0_.id_modulo=modulo1_.id 
+[0m[0m07:30:08,641 INFO  [stdout] (default task-10)     where
+[0m[0m07:30:08,641 INFO  [stdout] (default task-10)         modulos0_.id_configuracao=?
+[0m[0m07:30:09,446 INFO  [stdout] (default task-12) Hibernate: 
+[0m[0m07:30:09,446 INFO  [stdout] (default task-12)     select
+[0m[0m07:30:09,446 INFO  [stdout] (default task-12)         usuario0_.id as id1_2_0_,
+[0m[0m07:30:09,446 INFO  [stdout] (default task-12)         modulo2_.id as id1_1_1_,
+[0m[0m07:30:09,447 INFO  [stdout] (default task-12)         usuario0_.email as email2_2_0_,
+[0m[0m07:30:09,447 INFO  [stdout] (default task-12)         usuario0_.nome as nome3_2_0_,
+[0m[0m07:30:09,447 INFO  [stdout] (default task-12)         usuario0_.senha as senha4_2_0_,
+[0m[0m07:30:09,447 INFO  [stdout] (default task-12)         usuario0_.version as version5_2_0_,
+[0m[0m07:30:09,447 INFO  [stdout] (default task-12)         modulo2_.chave as chave2_1_1_,
+[0m[0m07:30:09,447 INFO  [stdout] (default task-12)         modulo2_.nome as nome3_1_1_,
+[0m[0m07:30:09,447 INFO  [stdout] (default task-12)         modulo2_.url as url4_1_1_,
+[0m[0m07:30:09,447 INFO  [stdout] (default task-12)         modulos1_.id_usuario as id_usuar1_2_0__,
+[0m[0m07:30:09,447 INFO  [stdout] (default task-12)         modulos1_.id_modulo as id_modul2_4_0__ 
+[0m[0m07:30:09,447 INFO  [stdout] (default task-12)     from
+[0m[0m07:30:09,447 INFO  [stdout] (default task-12)         Usuario usuario0_ 
+[0m[0m07:30:09,447 INFO  [stdout] (default task-12)     left outer join
+[0m[0m07:30:09,448 INFO  [stdout] (default task-12)         usuario_modulo modulos1_ 
+[0m[0m07:30:09,448 INFO  [stdout] (default task-12)             on usuario0_.id=modulos1_.id_usuario 
+[0m[0m07:30:09,448 INFO  [stdout] (default task-12)     left outer join
+[0m[0m07:30:09,448 INFO  [stdout] (default task-12)         Modulo modulo2_ 
+[0m[0m07:30:09,448 INFO  [stdout] (default task-12)             on modulos1_.id_modulo=modulo2_.id 
+[0m[0m07:30:09,449 INFO  [stdout] (default task-12)     where
+[0m[0m07:30:09,449 INFO  [stdout] (default task-12)         usuario0_.email=?
+[0m[0m07:30:09,453 INFO  [stdout] (default task-12) Hibernate: 
+[0m[0m07:30:09,453 INFO  [stdout] (default task-12)     select
+[0m[0m07:30:09,453 INFO  [stdout] (default task-12)         usuario0_.id as id1_2_,
+[0m[0m07:30:09,453 INFO  [stdout] (default task-12)         usuario0_.email as email2_2_,
+[0m[0m07:30:09,453 INFO  [stdout] (default task-12)         usuario0_.nome as nome3_2_,
+[0m[0m07:30:09,453 INFO  [stdout] (default task-12)         usuario0_.senha as senha4_2_,
+[0m[0m07:30:09,453 INFO  [stdout] (default task-12)         usuario0_.version as version5_2_ 
+[0m[0m07:30:09,453 INFO  [stdout] (default task-12)     from
+[0m[0m07:30:09,453 INFO  [stdout] (default task-12)         Usuario usuario0_ 
+[0m[0m07:30:09,453 INFO  [stdout] (default task-12)     where
+[0m[0m07:30:09,453 INFO  [stdout] (default task-12)         usuario0_.email=?
+[0m[0m07:30:09,524 INFO  [stdout] (default task-12) Hibernate: 
+[0m[0m07:30:09,525 INFO  [stdout] (default task-12)     select
+[0m[0m07:30:09,525 INFO  [stdout] (default task-12)         usuario0_.id as id1_2_0_,
+[0m[0m07:30:09,525 INFO  [stdout] (default task-12)         modulo2_.id as id1_1_1_,
+[0m[0m07:30:09,526 INFO  [stdout] (default task-12)         usuario0_.email as email2_2_0_,
+[0m[0m07:30:09,526 INFO  [stdout] (default task-12)         usuario0_.nome as nome3_2_0_,
+[0m[0m07:30:09,526 INFO  [stdout] (default task-12)         usuario0_.senha as senha4_2_0_,
+[0m[0m07:30:09,527 INFO  [stdout] (default task-12)         usuario0_.version as version5_2_0_,
+[0m[0m07:30:09,527 INFO  [stdout] (default task-12)         modulo2_.chave as chave2_1_1_,
+[0m[0m07:30:09,528 INFO  [stdout] (default task-12)         modulo2_.nome as nome3_1_1_,
+[0m[0m07:30:09,528 INFO  [stdout] (default task-12)         modulo2_.url as url4_1_1_,
+[0m[0m07:30:09,529 INFO  [stdout] (default task-12)         modulos1_.id_usuario as id_usuar1_2_0__,
+[0m[0m07:30:09,529 INFO  [stdout] (default task-12)         modulos1_.id_modulo as id_modul2_4_0__ 
+[0m[0m07:30:09,529 INFO  [stdout] (default task-12)     from
+[0m[0m07:30:09,530 INFO  [stdout] (default task-12)         Usuario usuario0_ 
+[0m[0m07:30:09,530 INFO  [stdout] (default task-12)     left outer join
+[0m[0m07:30:09,530 INFO  [stdout] (default task-12)         usuario_modulo modulos1_ 
+[0m[0m07:30:09,530 INFO  [stdout] (default task-12)             on usuario0_.id=modulos1_.id_usuario 
+[0m[0m07:30:09,530 INFO  [stdout] (default task-12)     left outer join
+[0m[0m07:30:09,530 INFO  [stdout] (default task-12)         Modulo modulo2_ 
+[0m[0m07:30:09,530 INFO  [stdout] (default task-12)             on modulos1_.id_modulo=modulo2_.id 
+[0m[0m07:30:09,531 INFO  [stdout] (default task-12)     where
+[0m[0m07:30:09,531 INFO  [stdout] (default task-12)         usuario0_.email=?
+[0m[0m07:30:09,920 INFO  [stdout] (default task-11) Hibernate: 
+[0m[0m07:30:09,921 INFO  [stdout] (default task-11)     select
+[0m[0m07:30:09,921 INFO  [stdout] (default task-11)         usuario0_.id as id1_3_0_,
+[0m[0m07:30:09,921 INFO  [stdout] (default task-11)         usuario0_.email as email2_3_0_,
+[0m[0m07:30:09,921 INFO  [stdout] (default task-11)         usuario0_.nome as nome3_3_0_,
+[0m[0m07:30:09,921 INFO  [stdout] (default task-11)         usuario0_.version as version4_3_0_ 
+[0m[0m07:30:09,921 INFO  [stdout] (default task-11)     from
+[0m[0m07:30:09,921 INFO  [stdout] (default task-11)         Usuario usuario0_ 
+[0m[0m07:30:09,921 INFO  [stdout] (default task-11)     where
+[0m[0m07:30:09,921 INFO  [stdout] (default task-11)         usuario0_.id=?
+[0m[0m07:30:10,000 INFO  [stdout] (default task-11) Hibernate: 
+[0m[0m07:30:10,001 INFO  [stdout] (default task-11)     select
+[0m[0m07:30:10,001 INFO  [stdout] (default task-11)         usuario0_.id as id1_3_0_,
+[0m[0m07:30:10,001 INFO  [stdout] (default task-11)         usuario0_.email as email2_3_0_,
+[0m[0m07:30:10,001 INFO  [stdout] (default task-11)         usuario0_.nome as nome3_3_0_,
+[0m[0m07:30:10,001 INFO  [stdout] (default task-11)         usuario0_.version as version4_3_0_ 
+[0m[0m07:30:10,001 INFO  [stdout] (default task-11)     from
+[0m[0m07:30:10,001 INFO  [stdout] (default task-11)         Usuario usuario0_ 
+[0m[0m07:30:10,001 INFO  [stdout] (default task-11)     where
+[0m[0m07:30:10,001 INFO  [stdout] (default task-11)         usuario0_.id=?
+[0m[0m07:30:10,066 INFO  [stdout] (default task-11) Hibernate: 
+[0m[0m07:30:10,066 INFO  [stdout] (default task-11)     insert 
+[0m[0m07:30:10,066 INFO  [stdout] (default task-11)     into
+[0m[0m07:30:10,066 INFO  [stdout] (default task-11)         Usuario
+[0m[0m07:30:10,066 INFO  [stdout] (default task-11)         (email, nome, version) 
+[0m[0m07:30:10,066 INFO  [stdout] (default task-11)     values
+[0m[0m07:30:10,066 INFO  [stdout] (default task-11)         (?, ?, ?)
+[0m[0m07:30:10,072 INFO  [stdout] (default task-11) Hibernate: 
+[0m[0m07:30:10,072 INFO  [stdout] (default task-11)     select
+[0m[0m07:30:10,072 INFO  [stdout] (default task-11)         modulo0_.id as id1_2_0_,
+[0m[0m07:30:10,072 INFO  [stdout] (default task-11)         modulo0_.chave as chave2_2_0_,
+[0m[0m07:30:10,072 INFO  [stdout] (default task-11)         modulo0_.nome as nome3_2_0_,
+[0m[0m07:30:10,072 INFO  [stdout] (default task-11)         modulo0_.url as url4_2_0_ 
+[0m[0m07:30:10,072 INFO  [stdout] (default task-11)     from
+[0m[0m07:30:10,072 INFO  [stdout] (default task-11)         Modulo modulo0_ 
+[0m[0m07:30:10,072 INFO  [stdout] (default task-11)     where
+[0m[0m07:30:10,072 INFO  [stdout] (default task-11)         modulo0_.id=?
+[0m[0m07:30:10,074 INFO  [stdout] (default task-11) Hibernate: 
+[0m[0m07:30:10,074 INFO  [stdout] (default task-11)     select
+[0m[0m07:30:10,074 INFO  [stdout] (default task-11)         modulo0_.id as id1_2_0_,
+[0m[0m07:30:10,074 INFO  [stdout] (default task-11)         modulo0_.chave as chave2_2_0_,
+[0m[0m07:30:10,074 INFO  [stdout] (default task-11)         modulo0_.nome as nome3_2_0_,
+[0m[0m07:30:10,074 INFO  [stdout] (default task-11)         modulo0_.url as url4_2_0_ 
+[0m[0m07:30:10,074 INFO  [stdout] (default task-11)     from
+[0m[0m07:30:10,074 INFO  [stdout] (default task-11)         Modulo modulo0_ 
+[0m[0m07:30:10,074 INFO  [stdout] (default task-11)     where
+[0m[0m07:30:10,074 INFO  [stdout] (default task-11)         modulo0_.id=?
+[0m[0m07:30:10,075 INFO  [stdout] (default task-11) Hibernate: 
+[0m[0m07:30:10,076 INFO  [stdout] (default task-11)     select
+[0m[0m07:30:10,076 INFO  [stdout] (default task-11)         modulo0_.id as id1_2_0_,
+[0m[0m07:30:10,076 INFO  [stdout] (default task-11)         modulo0_.chave as chave2_2_0_,
+[0m[0m07:30:10,076 INFO  [stdout] (default task-11)         modulo0_.nome as nome3_2_0_,
+[0m[0m07:30:10,076 INFO  [stdout] (default task-11)         modulo0_.url as url4_2_0_ 
+[0m[0m07:30:10,076 INFO  [stdout] (default task-11)     from
+[0m[0m07:30:10,077 INFO  [stdout] (default task-11)         Modulo modulo0_ 
+[0m[0m07:30:10,077 INFO  [stdout] (default task-11)     where
+[0m[0m07:30:10,077 INFO  [stdout] (default task-11)         modulo0_.id=?
+[0m[0m07:30:10,079 INFO  [stdout] (default task-11) Hibernate: 
+[0m[0m07:30:10,079 INFO  [stdout] (default task-11)     select
+[0m[0m07:30:10,079 INFO  [stdout] (default task-11)         modulo0_.id as id1_2_0_,
+[0m[0m07:30:10,079 INFO  [stdout] (default task-11)         modulo0_.chave as chave2_2_0_,
+[0m[0m07:30:10,079 INFO  [stdout] (default task-11)         modulo0_.nome as nome3_2_0_,
+[0m[0m07:30:10,079 INFO  [stdout] (default task-11)         modulo0_.url as url4_2_0_ 
+[0m[0m07:30:10,080 INFO  [stdout] (default task-11)     from
+[0m[0m07:30:10,080 INFO  [stdout] (default task-11)         Modulo modulo0_ 
+[0m[0m07:30:10,080 INFO  [stdout] (default task-11)     where
+[0m[0m07:30:10,080 INFO  [stdout] (default task-11)         modulo0_.id=?
+[0m[0m07:30:10,120 INFO  [stdout] (default task-11) Hibernate: 
+[0m[0m07:30:10,121 INFO  [stdout] (default task-11)     update
+[0m[0m07:30:10,121 INFO  [stdout] (default task-11)         Usuario 
+[0m[0m07:30:10,121 INFO  [stdout] (default task-11)     set
+[0m[0m07:30:10,121 INFO  [stdout] (default task-11)         email=?,
+[0m[0m07:30:10,121 INFO  [stdout] (default task-11)         nome=?,
+[0m[0m07:30:10,121 INFO  [stdout] (default task-11)         version=? 
+[0m[0m07:30:10,122 INFO  [stdout] (default task-11)     where
+[0m[0m07:30:10,122 INFO  [stdout] (default task-11)         id=? 
+[0m[0m07:30:10,122 INFO  [stdout] (default task-11)         and version=?
+[0m[0m07:30:10,132 INFO  [stdout] (default task-11) Hibernate: 
+[0m[0m07:30:10,132 INFO  [stdout] (default task-11)     insert 
+[0m[0m07:30:10,132 INFO  [stdout] (default task-11)     into
+[0m[0m07:30:10,133 INFO  [stdout] (default task-11)         usuario_modulo
+[0m[0m07:30:10,133 INFO  [stdout] (default task-11)         (id_usuario, id_modulo) 
+[0m[0m07:30:10,133 INFO  [stdout] (default task-11)     values
+[0m[0m07:30:10,133 INFO  [stdout] (default task-11)         (?, ?)
+[0m[0m07:30:10,135 INFO  [stdout] (default task-11) Hibernate: 
+[0m[0m07:30:10,135 INFO  [stdout] (default task-11)     insert 
+[0m[0m07:30:10,135 INFO  [stdout] (default task-11)     into
+[0m[0m07:30:10,135 INFO  [stdout] (default task-11)         usuario_modulo
+[0m[0m07:30:10,135 INFO  [stdout] (default task-11)         (id_usuario, id_modulo) 
+[0m[0m07:30:10,135 INFO  [stdout] (default task-11)     values
+[0m[0m07:30:10,135 INFO  [stdout] (default task-11)         (?, ?)
+[0m[0m07:30:10,136 INFO  [stdout] (default task-11) Hibernate: 
+[0m[0m07:30:10,136 INFO  [stdout] (default task-11)     insert 
+[0m[0m07:30:10,136 INFO  [stdout] (default task-11)     into
+[0m[0m07:30:10,136 INFO  [stdout] (default task-11)         usuario_modulo
+[0m[0m07:30:10,136 INFO  [stdout] (default task-11)         (id_usuario, id_modulo) 
+[0m[0m07:30:10,136 INFO  [stdout] (default task-11)     values
+[0m[0m07:30:10,136 INFO  [stdout] (default task-11)         (?, ?)
+[0m[0m07:30:10,136 INFO  [stdout] (default task-11) Hibernate: 
+[0m[0m07:30:10,136 INFO  [stdout] (default task-11)     insert 
+[0m[0m07:30:10,136 INFO  [stdout] (default task-11)     into
+[0m[0m07:30:10,136 INFO  [stdout] (default task-11)         usuario_modulo
+[0m[0m07:30:10,136 INFO  [stdout] (default task-11)         (id_usuario, id_modulo) 
+[0m[0m07:30:10,136 INFO  [stdout] (default task-11)     values
+[0m[0m07:30:10,136 INFO  [stdout] (default task-11)         (?, ?)
+[0m[0m07:30:10,167 INFO  [com.ocpsoft.pretty.PrettyFilter] (default task-11) PrettyFilter starting up...
+[0m[0m07:30:10,270 INFO  [com.ocpsoft.pretty.PrettyFilter] (default task-11) PrettyFilter initialized.
+[0m[0m07:30:15,052 INFO  [stdout] (default task-22) Hibernate: 
+[0m[0m07:30:15,053 INFO  [stdout] (default task-22)     select
+[0m[0m07:30:15,053 INFO  [stdout] (default task-22)         this_.id as id1_0_0_,
+[0m[0m07:30:15,053 INFO  [stdout] (default task-22)         this_.cpf_cnpj as cpf_cnpj2_0_0_,
+[0m[0m07:30:15,053 INFO  [stdout] (default task-22)         this_.nome as nome3_0_0_ 
+[0m[0m07:30:15,053 INFO  [stdout] (default task-22)     from
+[0m[0m07:30:15,053 INFO  [stdout] (default task-22)         Cliente this_
+[0m[0m07:30:33,174 INFO  [stdout] (default task-24) Hibernate: 
+[0m[0m07:30:33,174 INFO  [stdout] (default task-24)     insert 
+[0m[0m07:30:33,174 INFO  [stdout] (default task-24)     into
+[0m[0m07:30:33,174 INFO  [stdout] (default task-24)         Cliente
+[0m[0m07:30:33,174 INFO  [stdout] (default task-24)         (cpf_cnpj, nome) 
+[0m[0m07:30:33,174 INFO  [stdout] (default task-24)     values
+[0m[0m07:30:33,175 INFO  [stdout] (default task-24)         (?, ?)
+[0m[0m07:30:33,278 INFO  [stdout] (default task-25) Hibernate: 
+[0m[0m07:30:33,278 INFO  [stdout] (default task-25)     select
+[0m[0m07:30:33,278 INFO  [stdout] (default task-25)         usuario0_.id as id1_4_0_,
+[0m[0m07:30:33,278 INFO  [stdout] (default task-25)         modulo2_.id as id1_2_1_,
+[0m[0m07:30:33,278 INFO  [stdout] (default task-25)         usuario0_.email as email2_4_0_,
+[0m[0m07:30:33,278 INFO  [stdout] (default task-25)         usuario0_.nome as nome3_4_0_,
+[0m[0m07:30:33,278 INFO  [stdout] (default task-25)         usuario0_.version as version4_4_0_,
+[0m[0m07:30:33,278 INFO  [stdout] (default task-25)         modulo2_.chave as chave2_2_1_,
+[0m[0m07:30:33,279 INFO  [stdout] (default task-25)         modulo2_.nome as nome3_2_1_,
+[0m[0m07:30:33,279 INFO  [stdout] (default task-25)         modulo2_.url as url4_2_1_,
+[0m[0m07:30:33,279 INFO  [stdout] (default task-25)         modulos1_.id_usuario as id_usuar1_4_0__,
+[0m[0m07:30:33,279 INFO  [stdout] (default task-25)         modulos1_.id_modulo as id_modul2_7_0__ 
+[0m[0m07:30:33,279 INFO  [stdout] (default task-25)     from
+[0m[0m07:30:33,279 INFO  [stdout] (default task-25)         Usuario usuario0_ 
+[0m[0m07:30:33,279 INFO  [stdout] (default task-25)     left outer join
+[0m[0m07:30:33,279 INFO  [stdout] (default task-25)         usuario_modulo modulos1_ 
+[0m[0m07:30:33,279 INFO  [stdout] (default task-25)             on usuario0_.id=modulos1_.id_usuario 
+[0m[0m07:30:33,279 INFO  [stdout] (default task-25)     left outer join
+[0m[0m07:30:33,279 INFO  [stdout] (default task-25)         Modulo modulo2_ 
+[0m[0m07:30:33,279 INFO  [stdout] (default task-25)             on modulos1_.id_modulo=modulo2_.id 
+[0m[0m07:30:33,279 INFO  [stdout] (default task-25)     where
+[0m[0m07:30:33,279 INFO  [stdout] (default task-25)         usuario0_.email=? 
+[0m[0m07:30:33,279 INFO  [stdout] (default task-25)     order by
+[0m[0m07:30:33,279 INFO  [stdout] (default task-25)         modulo2_.id
+[0m[0m07:30:33,301 INFO  [com.ocpsoft.pretty.PrettyFilter] (default task-25) PrettyFilter starting up...
+[0m[0m07:30:33,385 INFO  [com.ocpsoft.pretty.PrettyFilter] (default task-25) PrettyFilter initialized.
+[0m[33m07:30:33,388 WARNING [javax.faces] (default task-25) Multiple JSF Applications found on same ClassLoader.  Unable to safely determine which FactoryManager instance to use. Defaulting to first match.
+[0m[0m07:30:33,410 INFO  [stdout] (default task-25) Hibernate: 
+[0m[0m07:30:33,411 INFO  [stdout] (default task-25)     select
+[0m[0m07:30:33,411 INFO  [stdout] (default task-25)         cliente0_.id as id1_0_0_,
+[0m[0m07:30:33,411 INFO  [stdout] (default task-25)         cliente0_.cpf_cnpj as cpf_cnpj2_0_0_,
+[0m[0m07:30:33,411 INFO  [stdout] (default task-25)         cliente0_.nome as nome3_0_0_ 
+[0m[0m07:30:33,411 INFO  [stdout] (default task-25)     from
+[0m[0m07:30:33,411 INFO  [stdout] (default task-25)         Cliente cliente0_ 
+[0m[0m07:30:33,411 INFO  [stdout] (default task-25)     where
+[0m[0m07:30:33,411 INFO  [stdout] (default task-25)         cliente0_.id=?
+[0m[0m07:30:33,451 INFO  [stdout] (default task-25) Hibernate: 
+[0m[0m07:30:33,452 INFO  [stdout] (default task-25)     insert 
+[0m[0m07:30:33,452 INFO  [stdout] (default task-25)     into
+[0m[0m07:30:33,452 INFO  [stdout] (default task-25)         Cliente
+[0m[0m07:30:33,452 INFO  [stdout] (default task-25)         (cpf_cnpj, nome) 
+[0m[0m07:30:33,452 INFO  [stdout] (default task-25)     values
+[0m[0m07:30:33,452 INFO  [stdout] (default task-25)         (?, ?)
+[0m[0m07:30:33,475 INFO  [stdout] (default task-24) Hibernate: 
+[0m[0m07:30:33,475 INFO  [stdout] (default task-24)     select
+[0m[0m07:30:33,475 INFO  [stdout] (default task-24)         this_.id as id1_0_0_,
+[0m[0m07:30:33,475 INFO  [stdout] (default task-24)         this_.cpf_cnpj as cpf_cnpj2_0_0_,
+[0m[0m07:30:33,475 INFO  [stdout] (default task-24)         this_.nome as nome3_0_0_ 
+[0m[0m07:30:33,476 INFO  [stdout] (default task-24)     from
+[0m[0m07:30:33,476 INFO  [stdout] (default task-24)         Cliente this_
+[0m[0m07:32:42,122 INFO  [stdout] (default task-1) Hibernate: 
+[0m[0m07:32:42,122 INFO  [stdout] (default task-1)     select
+[0m[0m07:32:42,122 INFO  [stdout] (default task-1)         usuario0_.id as id1_2_0_,
+[0m[0m07:32:42,122 INFO  [stdout] (default task-1)         modulo2_.id as id1_1_1_,
+[0m[0m07:32:42,122 INFO  [stdout] (default task-1)         usuario0_.email as email2_2_0_,
+[0m[0m07:32:42,122 INFO  [stdout] (default task-1)         usuario0_.nome as nome3_2_0_,
+[0m[0m07:32:42,122 INFO  [stdout] (default task-1)         usuario0_.senha as senha4_2_0_,
+[0m[0m07:32:42,122 INFO  [stdout] (default task-1)         usuario0_.version as version5_2_0_,
+[0m[0m07:32:42,122 INFO  [stdout] (default task-1)         modulo2_.chave as chave2_1_1_,
+[0m[0m07:32:42,122 INFO  [stdout] (default task-1)         modulo2_.nome as nome3_1_1_,
+[0m[0m07:32:42,122 INFO  [stdout] (default task-1)         modulo2_.url as url4_1_1_,
+[0m[0m07:32:42,122 INFO  [stdout] (default task-1)         modulos1_.id_usuario as id_usuar1_2_0__,
+[0m[0m07:32:42,122 INFO  [stdout] (default task-1)         modulos1_.id_modulo as id_modul2_4_0__ 
+[0m[0m07:32:42,123 INFO  [stdout] (default task-1)     from
+[0m[0m07:32:42,123 INFO  [stdout] (default task-1)         Usuario usuario0_ 
+[0m[0m07:32:42,123 INFO  [stdout] (default task-1)     left outer join
+[0m[0m07:32:42,123 INFO  [stdout] (default task-1)         usuario_modulo modulos1_ 
+[0m[0m07:32:42,123 INFO  [stdout] (default task-1)             on usuario0_.id=modulos1_.id_usuario 
+[0m[0m07:32:42,123 INFO  [stdout] (default task-1)     left outer join
+[0m[0m07:32:42,123 INFO  [stdout] (default task-1)         Modulo modulo2_ 
+[0m[0m07:32:42,123 INFO  [stdout] (default task-1)             on modulos1_.id_modulo=modulo2_.id 
+[0m[0m07:32:42,123 INFO  [stdout] (default task-1)     where
+[0m[0m07:32:42,123 INFO  [stdout] (default task-1)         usuario0_.email=?
+[0m[0m07:32:42,129 INFO  [stdout] (default task-1) Hibernate: 
+[0m[0m07:32:42,130 INFO  [stdout] (default task-1)     select
+[0m[0m07:32:42,130 INFO  [stdout] (default task-1)         usuario0_.id as id1_2_,
+[0m[0m07:32:42,130 INFO  [stdout] (default task-1)         usuario0_.email as email2_2_,
+[0m[0m07:32:42,130 INFO  [stdout] (default task-1)         usuario0_.nome as nome3_2_,
+[0m[0m07:32:42,130 INFO  [stdout] (default task-1)         usuario0_.senha as senha4_2_,
+[0m[0m07:32:42,130 INFO  [stdout] (default task-1)         usuario0_.version as version5_2_ 
+[0m[0m07:32:42,130 INFO  [stdout] (default task-1)     from
+[0m[0m07:32:42,130 INFO  [stdout] (default task-1)         Usuario usuario0_ 
+[0m[0m07:32:42,130 INFO  [stdout] (default task-1)     where
+[0m[0m07:32:42,130 INFO  [stdout] (default task-1)         usuario0_.email=?
+[0m[0m07:32:42,174 INFO  [stdout] (default task-2) Hibernate: 
+[0m[0m07:32:42,176 INFO  [stdout] (default task-2)     select
+[0m[0m07:32:42,176 INFO  [stdout] (default task-2)         configurac0_.id as id1_0_0_,
+[0m[0m07:32:42,176 INFO  [stdout] (default task-2)         configurac0_.nome_projeto as nome_pro2_0_0_ 
+[0m[0m07:32:42,176 INFO  [stdout] (default task-2)     from
+[0m[0m07:32:42,176 INFO  [stdout] (default task-2)         Configuracao configurac0_ 
+[0m[0m07:32:42,176 INFO  [stdout] (default task-2)     where
+[0m[0m07:32:42,176 INFO  [stdout] (default task-2)         configurac0_.id=?
+[0m[0m07:32:42,179 INFO  [stdout] (default task-2) Hibernate: 
+[0m[0m07:32:42,179 INFO  [stdout] (default task-2)     select
+[0m[0m07:32:42,179 INFO  [stdout] (default task-2)         modulos0_.id_configuracao as id_confi1_0_0_,
+[0m[0m07:32:42,179 INFO  [stdout] (default task-2)         modulos0_.id_modulo as id_modul2_3_0_,
+[0m[0m07:32:42,179 INFO  [stdout] (default task-2)         modulo1_.id as id1_1_1_,
+[0m[0m07:32:42,179 INFO  [stdout] (default task-2)         modulo1_.chave as chave2_1_1_,
+[0m[0m07:32:42,179 INFO  [stdout] (default task-2)         modulo1_.nome as nome3_1_1_,
+[0m[0m07:32:42,179 INFO  [stdout] (default task-2)         modulo1_.url as url4_1_1_ 
+[0m[0m07:32:42,179 INFO  [stdout] (default task-2)     from
+[0m[0m07:32:42,179 INFO  [stdout] (default task-2)         configuracao_modulo modulos0_ 
+[0m[0m07:32:42,179 INFO  [stdout] (default task-2)     inner join
+[0m[0m07:32:42,180 INFO  [stdout] (default task-2)         Modulo modulo1_ 
+[0m[0m07:32:42,180 INFO  [stdout] (default task-2)             on modulos0_.id_modulo=modulo1_.id 
+[0m[0m07:32:42,180 INFO  [stdout] (default task-2)     where
+[0m[0m07:32:42,180 INFO  [stdout] (default task-2)         modulos0_.id_configuracao=?
+[0m[0m07:32:43,918 INFO  [stdout] (default task-5) Hibernate: 
+[0m[0m07:32:43,918 INFO  [stdout] (default task-5)     select
+[0m[0m07:32:43,918 INFO  [stdout] (default task-5)         configurac0_.id as id1_0_0_,
+[0m[0m07:32:43,918 INFO  [stdout] (default task-5)         configurac0_.nome_projeto as nome_pro2_0_0_ 
+[0m[0m07:32:43,918 INFO  [stdout] (default task-5)     from
+[0m[0m07:32:43,918 INFO  [stdout] (default task-5)         Configuracao configurac0_ 
+[0m[0m07:32:43,918 INFO  [stdout] (default task-5)     where
+[0m[0m07:32:43,918 INFO  [stdout] (default task-5)         configurac0_.id=?
+[0m[0m07:32:43,920 INFO  [stdout] (default task-5) Hibernate: 
+[0m[0m07:32:43,920 INFO  [stdout] (default task-5)     select
+[0m[0m07:32:43,921 INFO  [stdout] (default task-5)         modulos0_.id_configuracao as id_confi1_0_0_,
+[0m[0m07:32:43,921 INFO  [stdout] (default task-5)         modulos0_.id_modulo as id_modul2_3_0_,
+[0m[0m07:32:43,921 INFO  [stdout] (default task-5)         modulo1_.id as id1_1_1_,
+[0m[0m07:32:43,921 INFO  [stdout] (default task-5)         modulo1_.chave as chave2_1_1_,
+[0m[0m07:32:43,921 INFO  [stdout] (default task-5)         modulo1_.nome as nome3_1_1_,
+[0m[0m07:32:43,921 INFO  [stdout] (default task-5)         modulo1_.url as url4_1_1_ 
+[0m[0m07:32:43,921 INFO  [stdout] (default task-5)     from
+[0m[0m07:32:43,921 INFO  [stdout] (default task-5)         configuracao_modulo modulos0_ 
+[0m[0m07:32:43,921 INFO  [stdout] (default task-5)     inner join
+[0m[0m07:32:43,921 INFO  [stdout] (default task-5)         Modulo modulo1_ 
+[0m[0m07:32:43,921 INFO  [stdout] (default task-5)             on modulos0_.id_modulo=modulo1_.id 
+[0m[0m07:32:43,921 INFO  [stdout] (default task-5)     where
+[0m[0m07:32:43,921 INFO  [stdout] (default task-5)         modulos0_.id_configuracao=?
+[0m[0m07:32:43,949 INFO  [stdout] (default task-8) Hibernate: 
+[0m[0m07:32:43,949 INFO  [stdout] (default task-8)     select
+[0m[0m07:32:43,949 INFO  [stdout] (default task-8)         usuario0_.id as id1_2_0_,
+[0m[0m07:32:43,949 INFO  [stdout] (default task-8)         modulo2_.id as id1_1_1_,
+[0m[0m07:32:43,949 INFO  [stdout] (default task-8)         usuario0_.email as email2_2_0_,
+[0m[0m07:32:43,949 INFO  [stdout] (default task-8)         usuario0_.nome as nome3_2_0_,
+[0m[0m07:32:43,950 INFO  [stdout] (default task-8)         usuario0_.senha as senha4_2_0_,
+[0m[0m07:32:43,950 INFO  [stdout] (default task-8)         usuario0_.version as version5_2_0_,
+[0m[0m07:32:43,950 INFO  [stdout] (default task-8)         modulo2_.chave as chave2_1_1_,
+[0m[0m07:32:43,950 INFO  [stdout] (default task-8)         modulo2_.nome as nome3_1_1_,
+[0m[0m07:32:43,950 INFO  [stdout] (default task-8)         modulo2_.url as url4_1_1_,
+[0m[0m07:32:43,950 INFO  [stdout] (default task-8)         modulos1_.id_usuario as id_usuar1_2_0__,
+[0m[0m07:32:43,950 INFO  [stdout] (default task-8)         modulos1_.id_modulo as id_modul2_4_0__ 
+[0m[0m07:32:43,950 INFO  [stdout] (default task-8)     from
+[0m[0m07:32:43,950 INFO  [stdout] (default task-8)         Usuario usuario0_ 
+[0m[0m07:32:43,950 INFO  [stdout] (default task-8)     left outer join
+[0m[0m07:32:43,950 INFO  [stdout] (default task-8)         usuario_modulo modulos1_ 
+[0m[0m07:32:43,950 INFO  [stdout] (default task-8)             on usuario0_.id=modulos1_.id_usuario 
+[0m[0m07:32:43,950 INFO  [stdout] (default task-8)     left outer join
+[0m[0m07:32:43,950 INFO  [stdout] (default task-8)         Modulo modulo2_ 
+[0m[0m07:32:43,950 INFO  [stdout] (default task-8)             on modulos1_.id_modulo=modulo2_.id 
+[0m[0m07:32:43,950 INFO  [stdout] (default task-8)     where
+[0m[0m07:32:43,951 INFO  [stdout] (default task-8)         usuario0_.email=?
+[0m[0m07:32:43,956 INFO  [stdout] (default task-6) Hibernate: 
+[0m[0m07:32:43,956 INFO  [stdout] (default task-6)     select
+[0m[0m07:32:43,956 INFO  [stdout] (default task-6)         usuario0_.id as id1_3_0_,
+[0m[0m07:32:43,956 INFO  [stdout] (default task-6)         usuario0_.email as email2_3_0_,
+[0m[0m07:32:43,956 INFO  [stdout] (default task-6)         usuario0_.nome as nome3_3_0_,
+[0m[0m07:32:43,956 INFO  [stdout] (default task-6)         usuario0_.version as version4_3_0_ 
+[0m[0m07:32:43,956 INFO  [stdout] (default task-6)     from
+[0m[0m07:32:43,956 INFO  [stdout] (default task-6)         Usuario usuario0_ 
+[0m[0m07:32:43,956 INFO  [stdout] (default task-6)     where
+[0m[0m07:32:43,957 INFO  [stdout] (default task-6)         usuario0_.id=?
+[0m[31m07:32:43,961 ERROR [stderr] (default task-6) javax.persistence.OptimisticLockException: Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect) : [br.com.emmanuelneri.cadastros.model.Usuario#1]
+[0m[31m07:32:43,962 ERROR [stderr] (default task-6) 	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.wrapStaleStateException(AbstractEntityManagerImpl.java:1785)
+[0m[31m07:32:43,962 ERROR [stderr] (default task-6) 	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1705)
+[0m[31m07:32:43,962 ERROR [stderr] (default task-6) 	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1677)
+[0m[31m07:32:43,962 ERROR [stderr] (default task-6) 	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1683)
+[0m[31m07:32:43,962 ERROR [stderr] (default task-6) 	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.merge(AbstractEntityManagerImpl.java:1206)
+[0m[31m07:32:43,962 ERROR [stderr] (default task-6) 	at org.jboss.as.jpa.container.AbstractEntityManager.merge(AbstractEntityManager.java:566)
+[0m[31m07:32:43,962 ERROR [stderr] (default task-6) 	at br.com.emmanuelneri.cadastros.util.GenericService.save(GenericService.java:61)
+[0m[31m07:32:43,962 ERROR [stderr] (default task-6) 	at br.com.emmanuelneri.cadastros.service.UsuarioService$Proxy$_$$_WeldSubclass.save(Unknown Source)
+[0m[31m07:32:43,962 ERROR [stderr] (default task-6) 	at br.com.emmanuelneri.cadastros.service.UsuarioService.atualizarUsuario(UsuarioService.java:28)
+[0m[31m07:32:43,963 ERROR [stderr] (default task-6) 	at br.com.emmanuelneri.cadastros.service.UsuarioService$Proxy$_$$_WeldSubclass.atualizarUsuario(Unknown Source)
+[0m[31m07:32:43,963 ERROR [stderr] (default task-6) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[0m[31m07:32:43,963 ERROR [stderr] (default task-6) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[0m[31m07:32:43,963 ERROR [stderr] (default task-6) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[0m[31m07:32:43,963 ERROR [stderr] (default task-6) 	at java.lang.reflect.Method.invoke(Method.java:498)
+[0m[31m07:32:43,963 ERROR [stderr] (default task-6) 	at org.jboss.weld.interceptor.proxy.SimpleInterceptionChain.interceptorChainCompleted(SimpleInterceptionChain.java:51)
+[0m[31m07:32:43,963 ERROR [stderr] (default task-6) 	at org.jboss.weld.interceptor.chain.AbstractInterceptionChain.finish(AbstractInterceptionChain.java:148)
+[0m[31m07:32:43,963 ERROR [stderr] (default task-6) 	at org.jboss.weld.interceptor.chain.AbstractInterceptionChain.invokeNextInterceptor(AbstractInterceptionChain.java:104)
+[0m[31m07:32:43,963 ERROR [stderr] (default task-6) 	at org.jboss.weld.interceptor.proxy.InterceptorInvocationContext.proceed(InterceptorInvocationContext.java:149)
+[0m[31m07:32:43,963 ERROR [stderr] (default task-6) 	at com.arjuna.ats.jta.cdi.transactional.TransactionalInterceptorBase.invokeInOurTx(TransactionalInterceptorBase.java:89)
+[0m[31m07:32:43,964 ERROR [stderr] (default task-6) 	at com.arjuna.ats.jta.cdi.transactional.TransactionalInterceptorRequired.intercept(TransactionalInterceptorRequired.java:52)
+[0m[31m07:32:43,964 ERROR [stderr] (default task-6) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[0m[31m07:32:43,964 ERROR [stderr] (default task-6) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[0m[31m07:32:43,964 ERROR [stderr] (default task-6) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[0m[31m07:32:43,964 ERROR [stderr] (default task-6) 	at java.lang.reflect.Method.invoke(Method.java:498)
+[0m[31m07:32:43,964 ERROR [stderr] (default task-6) 	at org.jboss.weld.interceptor.reader.SimpleInterceptorInvocation$SimpleMethodInvocation.invoke(SimpleInterceptorInvocation.java:74)
+[0m[31m07:32:43,964 ERROR [stderr] (default task-6) 	at org.jboss.weld.interceptor.chain.AbstractInterceptionChain.invokeNext(AbstractInterceptionChain.java:124)
+[0m[31m07:32:43,964 ERROR [stderr] (default task-6) 	at org.jboss.weld.interceptor.chain.AbstractInterceptionChain.invokeNextInterceptor(AbstractInterceptionChain.java:102)
+[0m[31m07:32:43,964 ERROR [stderr] (default task-6) 	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.executeInterception(InterceptorMethodHandler.java:43)
+[0m[31m07:32:43,964 ERROR [stderr] (default task-6) 	at org.jboss.weld.interceptor.proxy.InterceptorMethodHandler.invoke(InterceptorMethodHandler.java:36)
+[0m[31m07:32:43,965 ERROR [stderr] (default task-6) 	at org.jboss.weld.bean.proxy.CombinedInterceptorAndDecoratorStackMethodHandler.invoke(CombinedInterceptorAndDecoratorStackMethodHandler.java:51)
+[0m[31m07:32:43,965 ERROR [stderr] (default task-6) 	at br.com.emmanuelneri.cadastros.service.UsuarioService$Proxy$_$$_WeldSubclass.atualizarUsuario(Unknown Source)
+[0m[31m07:32:43,965 ERROR [stderr] (default task-6) 	at br.com.emmanuelneri.AutenticacaoFilter.doFilter(AutenticacaoFilter.java:38)
+[0m[31m07:32:43,965 ERROR [stderr] (default task-6) 	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60)
+[0m[31m07:32:43,965 ERROR [stderr] (default task-6) 	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132)
+[0m[31m07:32:43,965 ERROR [stderr] (default task-6) 	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+[0m[31m07:32:43,965 ERROR [stderr] (default task-6) 	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+[0m[31m07:32:43,965 ERROR [stderr] (default task-6) 	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+[0m[31m07:32:43,965 ERROR [stderr] (default task-6) 	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+[0m[31m07:32:43,965 ERROR [stderr] (default task-6) 	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+[0m[31m07:32:43,966 ERROR [stderr] (default task-6) 	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+[0m[31m07:32:43,966 ERROR [stderr] (default task-6) 	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+[0m[31m07:32:43,966 ERROR [stderr] (default task-6) 	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+[0m[31m07:32:43,966 ERROR [stderr] (default task-6) 	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+[0m[31m07:32:43,966 ERROR [stderr] (default task-6) 	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+[0m[31m07:32:43,966 ERROR [stderr] (default task-6) 	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+[0m[31m07:32:43,966 ERROR [stderr] (default task-6) 	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+[0m[31m07:32:43,966 ERROR [stderr] (default task-6) 	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60)
+[0m[31m07:32:43,966 ERROR [stderr] (default task-6) 	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132)
+[0m[31m07:32:43,966 ERROR [stderr] (default task-6) 	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:85)
+[0m[31m07:32:43,966 ERROR [stderr] (default task-6) 	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+[0m[31m07:32:43,966 ERROR [stderr] (default task-6) 	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+[0m[31m07:32:43,967 ERROR [stderr] (default task-6) 	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+[0m[31m07:32:43,967 ERROR [stderr] (default task-6) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+[0m[31m07:32:43,967 ERROR [stderr] (default task-6) 	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+[0m[31m07:32:43,967 ERROR [stderr] (default task-6) 	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+[0m[31m07:32:43,967 ERROR [stderr] (default task-6) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+[0m[31m07:32:43,967 ERROR [stderr] (default task-6) 	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+[0m[31m07:32:43,967 ERROR [stderr] (default task-6) 	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+[0m[31m07:32:43,967 ERROR [stderr] (default task-6) 	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58)
+[0m[31m07:32:43,967 ERROR [stderr] (default task-6) 	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70)
+[0m[31m07:32:43,968 ERROR [stderr] (default task-6) 	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76)
+[0m[31m07:32:43,968 ERROR [stderr] (default task-6) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+[0m[31m07:32:43,968 ERROR [stderr] (default task-6) 	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+[0m[31m07:32:43,968 ERROR [stderr] (default task-6) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+[0m[31m07:32:43,968 ERROR [stderr] (default task-6) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+[0m[31m07:32:43,968 ERROR [stderr] (default task-6) 	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:261)
+[0m[31m07:32:43,968 ERROR [stderr] (default task-6) 	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:248)
+[0m[31m07:32:43,968 ERROR [stderr] (default task-6) 	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:77)
+[0m[31m07:32:43,968 ERROR [stderr] (default task-6) 	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:167)
+[0m[31m07:32:43,968 ERROR [stderr] (default task-6) 	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+[0m[31m07:32:43,968 ERROR [stderr] (default task-6) 	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:761)
+[0m[31m07:32:43,968 ERROR [stderr] (default task-6) 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[0m[31m07:32:43,969 ERROR [stderr] (default task-6) 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[0m[31m07:32:43,969 ERROR [stderr] (default task-6) 	at java.lang.Thread.run(Thread.java:748)
+[0m[31m07:32:43,970 ERROR [stderr] (default task-6) Caused by: org.hibernate.StaleObjectStateException: Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect) : [br.com.emmanuelneri.cadastros.model.Usuario#1]
+[0m[31m07:32:43,970 ERROR [stderr] (default task-6) 	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:338)
+[0m[31m07:32:43,970 ERROR [stderr] (default task-6) 	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:186)
+[0m[31m07:32:43,971 ERROR [stderr] (default task-6) 	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:85)
+[0m[31m07:32:43,973 ERROR [stderr] (default task-6) 	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:876)
+[0m[31m07:32:43,973 ERROR [stderr] (default task-6) 	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:858)
+[0m[31m07:32:43,974 ERROR [stderr] (default task-6) 	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:863)
+[0m[31m07:32:43,974 ERROR [stderr] (default task-6) 	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.merge(AbstractEntityManagerImpl.java:1196)
+[0m[31m07:32:43,974 ERROR [stderr] (default task-6) 	... 69 more
+[0m[0m07:32:45,897 INFO  [stdout] (default task-14) Hibernate: 
+[0m[0m07:32:45,898 INFO  [stdout] (default task-14)     select
+[0m[0m07:32:45,898 INFO  [stdout] (default task-14)         this_.id as id1_0_0_,
+[0m[0m07:32:45,898 INFO  [stdout] (default task-14)         this_.cpf_cnpj as cpf_cnpj2_0_0_,
+[0m[0m07:32:45,898 INFO  [stdout] (default task-14)         this_.nome as nome3_0_0_ 
+[0m[0m07:32:45,898 INFO  [stdout] (default task-14)     from
+[0m[0m07:32:45,898 INFO  [stdout] (default task-14)         Cliente this_
+[0m[0m07:35:06,594 INFO  [stdout] (default task-15) Hibernate: 
+[0m[0m07:35:06,594 INFO  [stdout] (default task-15)     select
+[0m[0m07:35:06,594 INFO  [stdout] (default task-15)         this_.id as id1_1_0_,
+[0m[0m07:35:06,594 INFO  [stdout] (default task-15)         this_.marca as marca2_1_0_,
+[0m[0m07:35:06,594 INFO  [stdout] (default task-15)         this_.nome as nome3_1_0_ 
+[0m[0m07:35:06,594 INFO  [stdout] (default task-15)     from
+[0m[0m07:35:06,594 INFO  [stdout] (default task-15)         Modelo this_
+[0m[0m07:35:11,681 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,684 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,689 INFO  [stdout] (default task-21)         this_.id as id1_4_0_,
+[0m[0m07:35:11,691 INFO  [stdout] (default task-21)         this_.id_modelo as id_model3_4_0_,
+[0m[0m07:35:11,692 INFO  [stdout] (default task-21)         this_.nome as nome2_4_0_ 
+[0m[0m07:35:11,692 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,692 INFO  [stdout] (default task-21)         Veiculo this_
+[0m[0m07:35:11,714 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,714 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,714 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,714 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,714 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,714 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,714 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,714 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,714 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,716 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,716 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,716 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,716 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,717 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,717 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,717 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,717 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,717 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,719 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,720 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,720 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,720 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,720 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,720 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,720 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,720 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,720 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,722 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,722 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,722 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,722 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,722 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,722 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,722 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,722 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,722 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,725 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,725 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,725 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,725 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,725 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,725 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,725 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,725 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,725 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,727 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,727 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,727 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,727 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,727 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,727 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,727 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,728 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,728 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,729 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,729 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,729 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,729 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,730 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,730 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,730 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,730 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,730 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,731 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,732 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,732 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,732 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,732 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,732 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,732 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,732 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,732 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,733 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,734 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,734 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,735 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,735 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,735 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,735 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,735 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,735 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,737 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,737 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,737 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,737 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,737 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,737 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,737 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,737 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,737 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,739 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,739 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,739 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,740 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,740 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,740 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,740 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,740 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,740 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,742 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,742 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,742 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,742 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,742 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,742 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,742 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,742 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,742 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,744 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,744 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,744 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,744 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,744 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,744 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,744 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,744 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,744 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,748 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,748 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,749 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,749 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,749 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,749 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,749 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,749 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,749 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,750 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,750 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,750 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,750 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,751 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,751 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,751 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,751 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,751 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,753 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,753 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,753 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,753 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,754 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,754 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,754 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,754 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,754 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,755 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,755 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,756 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,756 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,756 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,756 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,756 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,756 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,756 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,758 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,758 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,758 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,758 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,758 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,759 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,759 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,759 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,759 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,760 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,760 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,761 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,761 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,761 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,761 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,761 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,761 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,761 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,763 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,763 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,763 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,763 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,763 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,764 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,764 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,764 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,764 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,765 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,765 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,765 INFO  [stdout] (default task-21)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:11,765 INFO  [stdout] (default task-21)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:11,765 INFO  [stdout] (default task-21)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:11,766 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,766 INFO  [stdout] (default task-21)         Modelo modelo0_ 
+[0m[0m07:35:11,766 INFO  [stdout] (default task-21)     where
+[0m[0m07:35:11,766 INFO  [stdout] (default task-21)         modelo0_.id=?
+[0m[0m07:35:11,770 INFO  [stdout] (default task-21) Hibernate: 
+[0m[0m07:35:11,770 INFO  [stdout] (default task-21)     select
+[0m[0m07:35:11,770 INFO  [stdout] (default task-21)         this_.id as id1_1_0_,
+[0m[0m07:35:11,770 INFO  [stdout] (default task-21)         this_.marca as marca2_1_0_,
+[0m[0m07:35:11,770 INFO  [stdout] (default task-21)         this_.nome as nome3_1_0_ 
+[0m[0m07:35:11,770 INFO  [stdout] (default task-21)     from
+[0m[0m07:35:11,771 INFO  [stdout] (default task-21)         Modelo this_
+[0m[0m07:35:16,662 INFO  [stdout] (default task-23) Hibernate: 
+[0m[0m07:35:16,662 INFO  [stdout] (default task-23)     select
+[0m[0m07:35:16,663 INFO  [stdout] (default task-23)         this_.id as id1_0_0_,
+[0m[0m07:35:16,663 INFO  [stdout] (default task-23)         this_.cpf_cnpj as cpf_cnpj2_0_0_,
+[0m[0m07:35:16,663 INFO  [stdout] (default task-23)         this_.nome as nome3_0_0_ 
+[0m[0m07:35:16,663 INFO  [stdout] (default task-23)     from
+[0m[0m07:35:16,663 INFO  [stdout] (default task-23)         Cliente this_
+[0m[0m07:35:22,350 INFO  [stdout] (default task-24) Hibernate: 
+[0m[0m07:35:22,351 INFO  [stdout] (default task-24)     select
+[0m[0m07:35:22,351 INFO  [stdout] (default task-24)         this_.id as id1_1_0_,
+[0m[0m07:35:22,351 INFO  [stdout] (default task-24)         this_.marca as marca2_1_0_,
+[0m[0m07:35:22,351 INFO  [stdout] (default task-24)         this_.nome as nome3_1_0_ 
+[0m[0m07:35:22,352 INFO  [stdout] (default task-24)     from
+[0m[0m07:35:22,352 INFO  [stdout] (default task-24)         Modelo this_
+[0m[0m07:35:23,272 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,272 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,272 INFO  [stdout] (default task-27)         this_.id as id1_4_0_,
+[0m[0m07:35:23,272 INFO  [stdout] (default task-27)         this_.id_modelo as id_model3_4_0_,
+[0m[0m07:35:23,272 INFO  [stdout] (default task-27)         this_.nome as nome2_4_0_ 
+[0m[0m07:35:23,272 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,272 INFO  [stdout] (default task-27)         Veiculo this_
+[0m[0m07:35:23,276 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,277 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,277 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,277 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,277 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,277 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,277 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,277 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,277 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,280 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,280 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,280 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,280 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,281 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,281 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,281 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,281 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,281 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,282 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,282 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,282 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,282 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,283 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,283 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,283 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,283 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,283 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,284 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,284 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,284 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,284 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,284 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,284 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,284 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,284 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,284 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,285 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,285 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,285 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,285 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,285 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,285 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,285 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,285 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,285 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,287 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,287 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,287 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,287 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,287 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,287 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,287 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,287 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,287 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,292 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,292 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,293 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,293 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,293 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,293 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,293 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,293 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,293 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,295 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,295 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,295 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,295 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,295 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,296 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,296 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,296 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,296 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,297 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,297 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,297 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,297 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,297 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,297 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,297 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,297 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,297 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,298 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,298 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,298 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,298 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,299 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,299 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,299 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,299 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,299 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,300 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,300 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,300 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,300 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,300 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,300 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,301 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,301 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,301 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,302 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,302 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,302 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,302 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,302 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,302 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,302 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,302 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,302 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,303 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,303 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,303 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,304 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,304 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,304 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,304 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,304 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,304 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,306 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,306 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,306 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,306 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,306 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,306 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,306 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,306 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,306 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,308 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,308 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,308 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,308 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,308 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,308 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,308 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,308 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,308 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,309 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,309 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,310 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,310 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,310 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,310 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,310 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,310 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,310 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,311 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,311 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,311 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,311 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,311 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,311 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,311 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,311 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,311 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,312 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,312 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,312 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,313 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,313 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,313 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,313 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,313 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,313 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,314 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,314 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,314 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,314 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,314 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,314 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,314 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,314 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,314 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,315 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,315 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,315 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,315 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,315 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,316 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,316 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,316 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,316 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,316 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,316 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,317 INFO  [stdout] (default task-27)         modelo0_.id as id1_1_0_,
+[0m[0m07:35:23,317 INFO  [stdout] (default task-27)         modelo0_.marca as marca2_1_0_,
+[0m[0m07:35:23,317 INFO  [stdout] (default task-27)         modelo0_.nome as nome3_1_0_ 
+[0m[0m07:35:23,317 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,317 INFO  [stdout] (default task-27)         Modelo modelo0_ 
+[0m[0m07:35:23,317 INFO  [stdout] (default task-27)     where
+[0m[0m07:35:23,317 INFO  [stdout] (default task-27)         modelo0_.id=?
+[0m[0m07:35:23,318 INFO  [stdout] (default task-27) Hibernate: 
+[0m[0m07:35:23,318 INFO  [stdout] (default task-27)     select
+[0m[0m07:35:23,318 INFO  [stdout] (default task-27)         this_.id as id1_1_0_,
+[0m[0m07:35:23,318 INFO  [stdout] (default task-27)         this_.marca as marca2_1_0_,
+[0m[0m07:35:23,319 INFO  [stdout] (default task-27)         this_.nome as nome3_1_0_ 
+[0m[0m07:35:23,319 INFO  [stdout] (default task-27)     from
+[0m[0m07:35:23,319 INFO  [stdout] (default task-27)         Modelo this_
+[0m[0m07:35:32,804 INFO  [stdout] (default task-28) Hibernate: 
+[0m[0m07:35:32,805 INFO  [stdout] (default task-28)     select
+[0m[0m07:35:32,805 INFO  [stdout] (default task-28)         this_.id as id1_0_0_,
+[0m[0m07:35:32,805 INFO  [stdout] (default task-28)         this_.cpf_cnpj as cpf_cnpj2_0_0_,
+[0m[0m07:35:32,805 INFO  [stdout] (default task-28)         this_.nome as nome3_0_0_ 
+[0m[0m07:35:32,805 INFO  [stdout] (default task-28)     from
+[0m[0m07:35:32,806 INFO  [stdout] (default task-28)         Cliente this_
+[0mKilled
