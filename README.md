@@ -8,7 +8,7 @@ sudo docker network create my-net
 ```
 Após isso iremos iniciar nosso container:
 ```
-sudo  docker run -it ubuntu-18
+sudo  docker run -p localhost:8080:8080 -it ubuntu-18 
 ```
 O próximo passo deve ser realizado no terminal HOST(e não no bash do container ubuntu) para copiar os arquivos necessários para dentro do nosso docker
 
@@ -25,6 +25,19 @@ Agora iremos rodar o script que instala automaticamente, e sobe nossa aplicaçã
 ```
 sh startArquiteturaMicroservices.sh
 ```
+Utilizando Aplicação
+--------------------
+
+1 - Acessar o Portal
+
+    http://localhost:8080/portal/login.xhtml
+
+2 - Logar no sistema
+
+    email: teste@gmail.com
+    senha: 123
+
+
 
 Contributing
 ------------
